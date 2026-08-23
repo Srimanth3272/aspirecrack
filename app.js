@@ -746,10 +746,19 @@ window.fetch = function() {
   return originalFetch(resource, config);
 };
 
+let selectedPlanId = 'all_access_999';
+
 function updateAuthUI() {
   const authBtn = document.getElementById("authBtn");
+  const savedPlan = localStorage.getItem("examedge_plan");
   if(currentUserToken && authBtn) {
-    authBtn.innerHTML = `<span>⭐</span> ${isUserSubscribed ? "Premium Active" : "Upgrade"}`;
+    let planBadge = "Premium Active";
+    if (savedPlan === 'all_access_999') planBadge = "👑 Master All-Access";
+    else if (savedPlan === '1_year') planBadge = "⭐ 1 Year Pass";
+    else if (savedPlan === '6_months') planBadge = "⭐ 6 Months Pass";
+    else if (savedPlan === '3_months') planBadge = "⭐ 3 Months Pass";
+
+    authBtn.innerHTML = `<span>⭐</span> ${isUserSubscribed ? planBadge : "Upgrade"}`;
     authBtn.style.borderRadius = "8px";
     authBtn.style.width = "auto";
     authBtn.style.height = "auto";
@@ -758,7 +767,7 @@ function updateAuthUI() {
     if(isUserSubscribed) {
       authBtn.style.setProperty("background", "linear-gradient(135deg, #10b981 0%, #059669 100%)", "important");
       authBtn.style.color = "#fff";
-      authBtn.onclick = () => alert("You have an active Premium Subscription!");
+      authBtn.onclick = () => alert(`You have an active Premium Subscription (${planBadge})!`);
     } else {
       authBtn.style.setProperty("background", "#fbbf24", "important");
       authBtn.style.color = "#111";
@@ -779,7 +788,10 @@ function closeAuthModal() {
   document.getElementById("authModal").style.display = "none";
 }
 
-function openSubModal() {
+function openSubModal(preferredPlan) {
+  if (preferredPlan) {
+    selectPlan(preferredPlan);
+  }
   document.getElementById("subModal").style.display = "flex";
 }
 
@@ -911,49 +923,98 @@ async function handleAuth() {
   }
 }
 
-async function initiatePayment() {
+function selectPlan(planId) {
+  selectedPlanId = planId;
+  document.querySelectorAll('.pricing-plan-card').forEach(card => {
+    if (card.dataset.plan === planId) {
+      card.classList.add('selected');
+    } else {
+      card.classList.remove('selected');
+    }
+  });
+
+  const payBtn = document.getElementById('razorpayPayBtn');
+  if (payBtn) {
+    const planPrices = {
+      '3_months': 'Pay ₹79 with Razorpay (3 Months)',
+      '6_months': 'Pay ₹149 with Razorpay (6 Months)',
+      '1_year': 'Pay ₹299 with Razorpay (1 Year)',
+      'all_access_999': 'Pay ₹999 with Razorpay — All Subjects Bundle (Sep 12 Batch)'
+    };
+    payBtn.innerText = planPrices[planId] || 'Pay with Razorpay';
+  }
+}
+
+async function initiatePayment(planId) {
+  const targetPlan = planId || selectedPlanId || 'all_access_999';
+
   if(!currentUserToken) {
-    alert("Please log in first!");
+    showNotification("Please sign in or create an account first to continue!", "info");
     closeSubModal();
     openAuthModal();
     return;
   }
   
   try {
-    // 1. Fetch Razorpay Key ID from our backend securely
+    // 1. Fetch Razorpay Key ID securely from backend
     const keyRes = await fetch("/api/razorpay-key");
     const keyData = await keyRes.json();
     
-    // 2. Create the Order
-    const res = await fetch("/api/create-order", { method: "POST" });
-    const order = await res.json();
+    // 2. Create the Razorpay Order with target plan
+    const res = await fetch("/api/create-order", { 
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ planId: targetPlan })
+    });
+    const orderData = await res.json();
+    
+    if (!orderData || !orderData.id) {
+      throw new Error(orderData.error || "Failed to create order");
+    }
+
+    const planInfo = orderData.plan || {
+      name: targetPlan === 'all_access_999' ? 'All Subjects Master Bundle (Sep 12 Batch)' : 'Premium Subscription',
+      price: targetPlan === 'all_access_999' ? 999 : (targetPlan === '1_year' ? 299 : (targetPlan === '6_months' ? 149 : 79))
+    };
     
     const options = {
-      key: keyData.key, // Dynamically fetched key from backend .env
-      amount: order.amount,
+      key: keyData.key,
+      amount: orderData.amount,
       currency: "INR",
       name: "ExamEdge AI",
-      description: "Premium Subscription (30 Days)",
-      order_id: order.id,
+      description: `${planInfo.name} — ₹${planInfo.price}`,
+      order_id: orderData.id,
+      prefill: {
+        email: document.getElementById("authEmail")?.value || ""
+      },
       handler: async function (response) {
-        const verifyRes = await fetch("/api/verify-payment", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            razorpay_payment_id: response.razorpay_payment_id,
-            razorpay_order_id: response.razorpay_order_id,
-            razorpay_signature: response.razorpay_signature,
-            email: document.getElementById("authEmail").value || "user@example.com"
-          })
-        });
-        const verifyData = await verifyRes.json();
-        if(verifyData.success) {
-          alert("Payment Successful! Premium Features Unlocked.");
-          isUserSubscribed = true;
-          localStorage.setItem("examedge_subscribed", "true");
-          closeSubModal();
-          updateAuthUI();
-          loadLatestData();
+        try {
+          const verifyRes = await fetch("/api/verify-payment", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              razorpay_payment_id: response.razorpay_payment_id,
+              razorpay_order_id: response.razorpay_order_id,
+              razorpay_signature: response.razorpay_signature,
+              email: document.getElementById("authEmail")?.value || "user@example.com",
+              planId: targetPlan
+            })
+          });
+          const verifyData = await verifyRes.json();
+          if(verifyData.success) {
+            isUserSubscribed = true;
+            localStorage.setItem("examedge_subscribed", "true");
+            localStorage.setItem("examedge_plan", targetPlan);
+            closeSubModal();
+            updateAuthUI();
+            loadLatestData();
+            showNotification(`🎉 ${verifyData.message || 'Payment Successful! Features Unlocked.'}`, "success");
+            alert(`🎉 Success! ${planInfo.name} is now active on your account.`);
+          } else {
+            showNotification(`❌ ${verifyData.error || 'Payment verification failed'}`, "error");
+          }
+        } catch(e) {
+          showNotification("Verification error after payment.", "error");
         }
       },
       theme: { color: "#fbbf24" }
@@ -961,7 +1022,8 @@ async function initiatePayment() {
     const rzp = new Razorpay(options);
     rzp.open();
   } catch(err) {
-    alert("Failed to initialize payment gateway.");
+    console.error('Payment gateway error:', err);
+    showNotification("Failed to initialize Razorpay payment gateway.", "error");
   }
 }
 

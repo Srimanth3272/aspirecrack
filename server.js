@@ -60,17 +60,54 @@ const userSchema = new mongoose.Schema({
   password: { type: String, required: false },
   isSubscribed: { type: Boolean, default: false },
   subscriptionExpiry: { type: Date, default: null },
+  subscriptionPlan: { type: String, default: null },
   resetToken: String,
   resetTokenExpiry: Date,
   isGoogleUser: { type: Boolean, default: false }
 });
 const User = mongoose.model('User', userSchema);
 
-// ── RAZORPAY CONFIGURATION ──────────────────────────────────
+// ── RAZORPAY CONFIGURATION & PLANS ──────────────────────────
 const razorpay = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID || 'rzp_test_dummy_key_123',
   key_secret: process.env.RAZORPAY_KEY_SECRET || 'dummy_secret_123'
 });
+
+const SUBSCRIPTION_PLANS = {
+  '3_months': {
+    id: '3_months',
+    name: '3 Months Pass',
+    price: 79,
+    amount: 7900, // ₹79 in paise
+    durationDays: 90,
+    description: 'ExamEdge AI — 3 Months Access (₹79)'
+  },
+  '6_months': {
+    id: '6_months',
+    name: '6 Months Pass',
+    price: 149,
+    amount: 14900, // ₹149 in paise
+    durationDays: 180,
+    description: 'ExamEdge AI — 6 Months Access (₹149)'
+  },
+  '1_year': {
+    id: '1_year',
+    name: '1 Year Full Access',
+    price: 299,
+    amount: 29900, // ₹299 in paise
+    durationDays: 365,
+    description: 'ExamEdge AI — 1 Year Full Pass (₹299)'
+  },
+  'all_access_999': {
+    id: 'all_access_999',
+    name: 'All-in-One Master Bundle (Maths, Reasoning, English & Shortcuts)',
+    price: 999,
+    amount: 99900, // ₹999 in paise
+    durationDays: 730, // 2 Years / Complete Access
+    startDate: 'September 12',
+    description: 'ExamEdge AI — Complete Subjects Master Bundle (Maths, Reasoning, English & Shortcuts) from Sep 12 (₹999)'
+  }
+};
 
 // ── AUTHENTICATION ROUTES ───────────────────────────────────
 app.get('/api/config', (req, res) => {
@@ -205,23 +242,36 @@ app.get('/api/razorpay-key', (req, res) => {
   res.json({ key: process.env.RAZORPAY_KEY_ID });
 });
 
+app.get('/api/plans', (req, res) => {
+  res.json(SUBSCRIPTION_PLANS);
+});
+
 app.post('/api/create-order', async (req, res) => {
   try {
+    const { planId } = req.body;
+    const plan = SUBSCRIPTION_PLANS[planId] || SUBSCRIPTION_PLANS['3_months'];
+
     const options = {
-      amount: 2900, // ₹29 in paise
+      amount: plan.amount, // in paise
       currency: 'INR',
-      receipt: 'receipt_order_' + Date.now()
+      receipt: `receipt_${plan.id}_${Date.now()}`,
+      notes: {
+        planId: plan.id,
+        planName: plan.name,
+        batch: plan.id === 'all_access_999' ? 'Sep 12 Batch' : 'Regular'
+      }
     };
     const order = await razorpay.orders.create(options);
-    res.json(order);
+    res.json({ ...order, plan });
   } catch (err) {
+    console.error('Razorpay order creation error:', err);
     res.status(500).json({ error: 'Error creating Razorpay order' });
   }
 });
 
 app.post('/api/verify-payment', verifyToken, async (req, res) => {
   try {
-    const { razorpay_order_id, razorpay_payment_id, razorpay_signature, email } = req.body;
+    const { razorpay_order_id, razorpay_payment_id, razorpay_signature, email, planId } = req.body;
     
     // Verify signature
     const secret = process.env.RAZORPAY_KEY_SECRET || 'dummy_secret_123';
@@ -233,23 +283,36 @@ app.post('/api/verify-payment', verifyToken, async (req, res) => {
       return res.status(400).json({ error: 'Payment verification failed: Invalid signature' });
     }
     
-    // Update user subscription (30 days)
+    const plan = SUBSCRIPTION_PLANS[planId] || SUBSCRIPTION_PLANS['3_months'];
+    const durationDays = plan.durationDays || 90;
+
+    // Calculate dynamic subscription expiry
     const expiry = new Date();
-    expiry.setDate(expiry.getDate() + 30);
+    expiry.setDate(expiry.getDate() + durationDays);
     
     const userEmail = req.userEmail || email;
     const user = await User.findOneAndUpdate(
       { email: userEmail },
-      { isSubscribed: true, subscriptionExpiry: expiry },
+      { 
+        isSubscribed: true, 
+        subscriptionExpiry: expiry,
+        subscriptionPlan: plan.id
+      },
       { new: true }
     );
     
     if (user) {
-      res.json({ success: true, message: 'Payment successful! Subscription unlocked.' });
+      res.json({ 
+        success: true, 
+        message: `Payment successful! ${plan.name} unlocked until ${expiry.toLocaleDateString('en-IN')}.`,
+        plan: plan.id,
+        subscriptionExpiry: expiry
+      });
     } else {
       res.status(404).json({ error: 'User not found' });
     }
   } catch (err) {
+    console.error('Razorpay verification error:', err);
     res.status(500).json({ error: 'Payment verification failed' });
   }
 });

@@ -813,3 +813,212 @@ body {
   box-shadow: none !important;
 }
 @media (max-width: 500px) { .assoc-text { display: none !important; } .partner-logo img { height: 45px !important; } }
+
+/* ----------------------------------------
+   PRICING TIERS & PLANS STYLING
+   ---------------------------------------- */
+.pricing-modal-box {
+  max-width: 900px !important;
+  width: 95% !important;
+  max-height: 92vh;
+  overflow-y: auto;
+  padding: 32px 24px !important;
+  border-radius: 20px !important;
+  background: #18181b !important;
+  border: 1px solid rgba(251, 191, 36, 0.3) !important;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8), 0 0 40px rgba(251, 191, 36, 0.15) !important;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.pricing-plan-card {
+  background: #232328;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 20px 16px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.pricing-plan-card:hover {
+  border-color: rgba(251, 191, 36, 0.6);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.pricing-plan-card.selected {
+  border-color: #fbbf24 !important;
+  background: linear-gradient(180deg, rgba(251, 191, 36, 0.12) 0%, rgba(35, 35, 40, 1) 100%) !important;
+  box-shadow: 0 0 20px rgba(251, 191, 36, 0.25) !important;
+}
+
+.pricing-plan-card.combo-special {
+  border-color: rgba(245, 158, 11, 0.5);
+  background: linear-gradient(180deg, rgba(245, 158, 11, 0.08) 0%, rgba(26, 26, 32, 1) 100%);
+  grid-column: 1 / -1;
+}
+
+@media (min-width: 768px) {
+  .pricing-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.plan-badge {
+  position: absolute;
+  top: -12px;
+  right: 14px;
+  background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
+  color: #111;
+  font-size: 10.5px;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(251, 191, 36, 0.4);
+}
+
+.plan-badge-pulse {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: #fff;
+  animation: pulseBadge 2s infinite;
+}
+
+@keyframes pulseBadge {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.04); }
+  100% { transform: scale(1); }
+}
+
+.plan-header {
+  margin-bottom: 12px;
+}
+
+.plan-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+  font-family: var(--font-heading);
+}
+
+.plan-subtitle {
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+.plan-price-row {
+  margin: 14px 0;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.plan-currency {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #fbbf24;
+}
+
+.plan-amount {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1;
+}
+
+.plan-period {
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
+
+.plan-features-list {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: #d1d5db;
+}
+
+.plan-features-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  line-height: 1.4;
+}
+
+.plan-features-list li span.check {
+  color: #10b981;
+  font-weight: bold;
+}
+
+.combo-content-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 650px) {
+  .combo-content-wrap {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.combo-subjects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.combo-subj-pill {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(251, 191, 36, 0.2);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 0.8rem;
+  color: #f3f4f6;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sep-batch-banner {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  color: #fca5a5;
+  padding: 6px 14px;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* SECTION PRICING TABLE ON LANDING PAGE */
+.landing-pricing-section {
+  padding: 60px 0;
+  background: linear-gradient(180deg, #111 0%, #17171c 100%);
+  border-top: 1px solid #27272a;
+  border-bottom: 1px solid #27272a;
+}
+
