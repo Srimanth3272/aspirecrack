@@ -92,20 +92,11 @@ const SUBSCRIPTION_PLANS = {
   },
   '1_year': {
     id: '1_year',
-    name: '1 Year Full Access',
+    name: '1 Year Full Combo Pass (All Subjects: Maths, Reasoning, English & Shortcuts)',
     price: 299,
     amount: 29900, // ₹299 in paise
     durationDays: 365,
-    description: 'ExamEdge AI — 1 Year Full Pass (₹299)'
-  },
-  'all_access_999': {
-    id: 'all_access_999',
-    name: 'All-in-One Master Bundle (Maths, Reasoning, English & Shortcuts)',
-    price: 999,
-    amount: 99900, // ₹999 in paise
-    durationDays: 730, // 2 Years / Complete Access
-    startDate: 'September 12',
-    description: 'ExamEdge AI — Complete Subjects Master Bundle (Maths, Reasoning, English & Shortcuts) from Sep 12 (₹999)'
+    description: 'ExamEdge AI — 1 Year Full Master Combo (All Subjects Covered) (₹299)'
   }
 };
 
@@ -258,7 +249,7 @@ app.post('/api/create-order', async (req, res) => {
       notes: {
         planId: plan.id,
         planName: plan.name,
-        batch: plan.id === 'all_access_999' ? 'Sep 12 Batch' : 'Regular'
+        batch: plan.id === '1_year' ? 'All-Subjects Full Combo Batch' : 'Regular'
       }
     };
     const order = await razorpay.orders.create(options);

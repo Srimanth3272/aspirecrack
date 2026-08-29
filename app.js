@@ -746,15 +746,14 @@ window.fetch = function() {
   return originalFetch(resource, config);
 };
 
-let selectedPlanId = 'all_access_999';
+let selectedPlanId = '1_year';
 
 function updateAuthUI() {
   const authBtn = document.getElementById("authBtn");
   const savedPlan = localStorage.getItem("examedge_plan");
   if(currentUserToken && authBtn) {
     let planBadge = "Premium Active";
-    if (savedPlan === 'all_access_999') planBadge = "👑 Master All-Access";
-    else if (savedPlan === '1_year') planBadge = "⭐ 1 Year Pass";
+    if (savedPlan === '1_year') planBadge = "👑 1 Year Full Combo";
     else if (savedPlan === '6_months') planBadge = "⭐ 6 Months Pass";
     else if (savedPlan === '3_months') planBadge = "⭐ 3 Months Pass";
 
@@ -789,9 +788,7 @@ function closeAuthModal() {
 }
 
 function openSubModal(preferredPlan) {
-  if (preferredPlan) {
-    selectPlan(preferredPlan);
-  }
+  selectPlan(preferredPlan || selectedPlanId || '1_year');
   document.getElementById("subModal").style.display = "flex";
 }
 
@@ -936,17 +933,16 @@ function selectPlan(planId) {
   const payBtn = document.getElementById('razorpayPayBtn');
   if (payBtn) {
     const planPrices = {
-      '3_months': 'Pay ₹79 with Razorpay (3 Months)',
-      '6_months': 'Pay ₹149 with Razorpay (6 Months)',
-      '1_year': 'Pay ₹299 with Razorpay (1 Year)',
-      'all_access_999': 'Pay ₹999 with Razorpay — All Subjects Bundle (Sep 12 Batch)'
+      '3_months': 'Pay ₹79 with Razorpay (3 Months Pass)',
+      '6_months': 'Pay ₹149 with Razorpay (6 Months Pass)',
+      '1_year': 'Pay ₹299 with Razorpay — All Subjects Full Combo (1 Year Pass)'
     };
     payBtn.innerText = planPrices[planId] || 'Pay with Razorpay';
   }
 }
 
 async function initiatePayment(planId) {
-  const targetPlan = planId || selectedPlanId || 'all_access_999';
+  const targetPlan = planId || selectedPlanId || '1_year';
 
   if(!currentUserToken) {
     showNotification("Please sign in or create an account first to continue!", "info");
@@ -973,8 +969,8 @@ async function initiatePayment(planId) {
     }
 
     const planInfo = orderData.plan || {
-      name: targetPlan === 'all_access_999' ? 'All Subjects Master Bundle (Sep 12 Batch)' : 'Premium Subscription',
-      price: targetPlan === 'all_access_999' ? 999 : (targetPlan === '1_year' ? 299 : (targetPlan === '6_months' ? 149 : 79))
+      name: targetPlan === '1_year' ? 'All Subjects Master Combo (1 Year Pass)' : 'Premium Subscription',
+      price: targetPlan === '1_year' ? 299 : (targetPlan === '6_months' ? 149 : 79)
     };
     
     const options = {
@@ -1008,7 +1004,7 @@ async function initiatePayment(planId) {
             closeSubModal();
             updateAuthUI();
             loadLatestData();
-            showNotification(`🎉 ${verifyData.message || 'Payment Successful! Features Unlocked.'}`, "success");
+            showNotification(`🎉 ${verifyData.message || 'Payment Successful! Full Combo Unlocked.'}`, "success");
             alert(`🎉 Success! ${planInfo.name} is now active on your account.`);
           } else {
             showNotification(`❌ ${verifyData.error || 'Payment verification failed'}`, "error");
@@ -1046,7 +1042,7 @@ function setLanguageActiveState() {
   if (activeBtn) activeBtn.classList.add('active');
 }
 
-function translatePage(lang) {
+function translatePage(lang, directToMock = true) {
   const domain = window.location.hostname;
   if(lang === 'en') {
       document.cookie = `googtrans=/en/en; path=/; domain=${domain}`;
@@ -1055,7 +1051,17 @@ function translatePage(lang) {
       document.cookie = `googtrans=/en/${lang}; path=/; domain=${domain}`;
       document.cookie = `googtrans=/en/${lang}; path=/`;
   }
-  window.location.reload();
+  
+  if (directToMock) {
+    if (isUserSubscribed) {
+      window.location.href = `mock-test.html?topic=mock_group_1`;
+    } else {
+      showNotification(`Language set to ${lang.toUpperCase()}. Unlock Full Combo Pass to start Interactive Mock Tests!`, "info");
+      openSubModal('1_year');
+    }
+  } else {
+    window.location.reload();
+  }
 }
 
 document.addEventListener('DOMContentLoaded', setLanguageActiveState);

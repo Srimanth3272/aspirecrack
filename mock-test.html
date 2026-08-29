@@ -3,225 +3,495 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>International Affairs Mock - ExamEdge</title>
+  <title>Interactive Mock Test - ExamEdge AI</title>
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="style.css">
   <style>
+    :root {
+      --bg-primary: #121212;
+      --bg-secondary: #18181b;
+      --bg-card: #1f1f26;
+      --bg-card-hover: #272732;
+      --primary: #fbbf24;
+      --primary-hover: #f59e0b;
+      --accent-gold: #fbbf24;
+      --accent-green: #10b981;
+      --accent-red: #ef4444;
+      --text-primary: #ffffff;
+      --text-secondary: #a1a1aa;
+      --text-muted: #71717a;
+      --border-subtle: rgba(255, 255, 255, 0.12);
+      --border-card: rgba(255, 255, 255, 0.18);
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+
     .mock-container {
-      max-width: 800px;
-      margin: 40px auto;
+      max-width: 860px;
+      margin: 30px auto 60px;
       padding: 0 20px;
     }
+
     .mock-header {
       background: var(--bg-card);
-      padding: 24px;
-      border-radius: 16px;
+      padding: 24px 28px;
+      border-radius: 18px;
       border: 1px solid var(--border-subtle);
       margin-bottom: 24px;
-      text-align: center;
       position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
     }
+
+    .header-nav-row {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .back-btn {
+      background: #272730;
+      border: 1px solid var(--border-subtle);
+      color: #fff;
+      padding: 9px 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.9rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+    .back-btn:hover {
+      background: #32323f;
+      border-color: var(--primary);
+      color: var(--primary);
+      transform: translateY(-1px);
+    }
+
     .mock-header h1 {
       color: var(--primary);
-      margin-bottom: 8px;
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 800;
+      margin: 4px 0 0;
+      letter-spacing: -0.5px;
     }
+
     .mock-header p {
       color: var(--text-secondary);
+      font-size: 0.95rem;
+      margin: 0;
     }
-    .back-btn {
-      position: absolute;
-      left: 24px;
-      top: 50%;
-      transform: translateY(-50%);
-      background: var(--bg-primary);
-      border: 1px solid var(--border-subtle);
-      color: var(--text-primary);
-      padding: 8px 16px;
-      border-radius: 8px;
-      cursor: pointer;
-      text-decoration: none;
-      font-weight: 500;
-    }
-    
-    /* Quiz UI */
+
+    /* Quiz Card UI */
     .quiz-card {
       background: var(--bg-card);
       border: 1px solid var(--border-subtle);
-      border-radius: 16px;
-      padding: 32px;
-      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      padding: 36px 32px;
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.4);
       display: none;
     }
     .quiz-card.active {
       display: block;
-      animation: fadeIn 0.4s ease;
+      animation: fadeIn 0.35s ease;
     }
-    
+
     .progress-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
       color: var(--text-secondary);
       font-weight: 600;
       font-size: 0.95rem;
     }
+
     .progress-bar {
       width: 100%;
       height: 8px;
-      background: var(--bg-primary);
-      border-radius: 4px;
+      background: #272730;
+      border-radius: 6px;
       margin-bottom: 30px;
       overflow: hidden;
     }
     .progress-fill {
       height: 100%;
-      background: var(--primary);
+      background: linear-gradient(90deg, #fbbf24 0%, #f59e0b 100%);
       width: 0%;
-      transition: width 0.3s ease;
+      border-radius: 6px;
+      transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
-    
+
     .question-text {
       font-size: 1.25rem;
       font-weight: 700;
-      color: var(--text-primary);
+      color: #fff;
       margin-bottom: 24px;
       line-height: 1.6;
     }
-    
+
     .options-grid {
       display: grid;
       grid-template-columns: 1fr;
       gap: 12px;
       margin-bottom: 24px;
     }
-    
+
     .option-btn {
       text-align: left;
       padding: 16px 20px;
-      background: var(--bg-primary);
+      background: #18181e;
       border: 2px solid var(--border-subtle);
       border-radius: 12px;
-      color: var(--text-primary);
+      color: #f4f4f5;
       cursor: pointer;
       transition: all 0.2s ease;
       font-size: 1.05rem;
       display: flex;
       align-items: center;
       font-weight: 500;
+      line-height: 1.5;
     }
     .option-btn strong {
-      margin-right: 12px;
-      background: rgba(0,0,0,0.05);
-      padding: 4px 8px;
-      border-radius: 6px;
+      margin-right: 14px;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 4px 10px;
+      border-radius: 8px;
+      color: var(--primary);
+      font-weight: 800;
     }
     .option-btn:hover:not(.disabled) {
       border-color: var(--primary);
-      background: rgba(59, 130, 246, 0.05);
+      background: #252530;
       transform: translateY(-2px);
     }
-    
+
     .option-btn.correct {
-      background: rgba(16, 185, 129, 0.1);
-      border-color: #10b981;
-      color: #065f46;
+      background: rgba(16, 185, 129, 0.18) !important;
+      border-color: #10b981 !important;
+      color: #34d399 !important;
     }
-    .option-btn.correct strong { background: rgba(16, 185, 129, 0.2); }
-    
+    .option-btn.correct strong {
+      background: rgba(16, 185, 129, 0.35);
+      color: #34d399;
+    }
+
     .option-btn.incorrect {
-      background: rgba(239, 68, 68, 0.1);
-      border-color: #ef4444;
-      color: #991b1b;
+      background: rgba(239, 68, 68, 0.18) !important;
+      border-color: #ef4444 !important;
+      color: #f87171 !important;
     }
-    .option-btn.incorrect strong { background: rgba(239, 68, 68, 0.2); }
-    
+    .option-btn.incorrect strong {
+      background: rgba(239, 68, 68, 0.35);
+      color: #f87171;
+    }
+
     .option-btn.disabled {
       pointer-events: none;
     }
     .option-btn.dimmed {
-      opacity: 0.5;
+      opacity: 0.45;
     }
-    
+
     .explanation-box {
       display: none;
-      background: var(--bg-primary);
+      background: #18181f;
       border-left: 4px solid var(--primary);
-      padding: 20px;
       border-radius: 0 12px 12px 0;
+      padding: 20px 24px;
       margin-top: 20px;
       margin-bottom: 24px;
+      border-top: 1px solid var(--border-subtle);
+      border-right: 1px solid var(--border-subtle);
+      border-bottom: 1px solid var(--border-subtle);
     }
     .explanation-box.visible {
       display: block;
-      animation: fadeIn 0.4s ease;
+      animation: fadeIn 0.35s ease;
     }
     .explanation-title {
       font-weight: 800;
       color: var(--primary);
-      margin-bottom: 10px;
+      margin-bottom: 8px;
       font-size: 0.95rem;
       text-transform: uppercase;
-      letter-spacing: 1px;
+      letter-spacing: 0.8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
     }
     .explanation-text {
-      color: var(--text-secondary);
-      font-size: 1rem;
+      color: #e4e4e7;
+      font-size: 0.98rem;
       line-height: 1.7;
       white-space: pre-line;
     }
-    
+
     .next-btn {
       display: none;
       width: 100%;
       padding: 16px;
-      background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-      color: white;
+      background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
+      color: #111;
       border: none;
       border-radius: 12px;
       font-size: 1.1rem;
-      font-weight: 700;
+      font-weight: 800;
       cursor: pointer;
       text-align: center;
-      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+      box-shadow: 0 6px 20px rgba(251, 191, 36, 0.3);
       transition: all 0.2s ease;
     }
     .next-btn:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4);
+      box-shadow: 0 8px 24px rgba(251, 191, 36, 0.45);
     }
     .next-btn.visible {
       display: block;
-      animation: fadeIn 0.4s ease;
+      animation: fadeIn 0.3s ease;
     }
-    
+
+    /* Result / Closing Page UI */
     .result-card {
       text-align: center;
-      padding: 40px 20px;
+      padding: 40px 28px;
     }
-    .result-score {
-      font-size: 4rem;
-      font-weight: 900;
+    .result-badge {
+      display: inline-block;
+      padding: 6px 18px;
+      border-radius: 30px;
+      font-size: 0.85rem;
+      font-weight: 800;
+      background: rgba(251, 191, 36, 0.15);
       color: var(--primary);
-      margin-bottom: 10px;
+      border: 1px solid rgba(251, 191, 36, 0.35);
+      margin-bottom: 16px;
     }
-    .result-text {
-      font-size: 1.2rem;
+    .result-title {
+      font-size: 2.2rem;
+      font-weight: 900;
+      color: #fff;
+      font-family: 'Outfit', sans-serif;
+      margin-bottom: 8px;
+    }
+    .result-subtitle {
       color: var(--text-secondary);
+      font-size: 1rem;
       margin-bottom: 30px;
     }
-    
+    .score-circle-wrap {
+      width: 160px;
+      height: 160px;
+      margin: 0 auto 30px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #252530 0%, #17171e 100%);
+      border: 4px solid var(--primary);
+      box-shadow: 0 0 32px rgba(251, 191, 36, 0.3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .score-big {
+      font-size: 3rem;
+      font-weight: 900;
+      color: var(--primary);
+      line-height: 1;
+      font-family: 'Outfit', sans-serif;
+    }
+    .score-percent {
+      font-size: 1rem;
+      color: #e4e4e7;
+      font-weight: 700;
+      margin-top: 4px;
+    }
+    .result-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .result-stat-box {
+      background: #18181f;
+      border: 1px solid var(--border-subtle);
+      border-radius: 14px;
+      padding: 16px;
+      text-align: center;
+    }
+    .stat-val {
+      font-size: 1.7rem;
+      font-weight: 800;
+      margin-bottom: 4px;
+      font-family: 'Outfit', sans-serif;
+    }
+    .stat-label {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+    }
+    .result-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 480px;
+      margin: 0 auto 40px;
+    }
+    .action-btn-primary {
+      padding: 15px;
+      background: linear-gradient(135deg, #fbbf24 0%, #d97706 100%);
+      color: #111;
+      border: none;
+      border-radius: 12px;
+      font-size: 1.05rem;
+      font-weight: 800;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 16px rgba(251, 191, 36, 0.3);
+    }
+    .action-btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(251, 191, 36, 0.45);
+    }
+    .action-btn-secondary {
+      padding: 15px;
+      background: #272732;
+      color: #fff;
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .action-btn-secondary:hover {
+      background: #323242;
+      border-color: #555;
+    }
+    .action-btn-home {
+      padding: 15px;
+      background: transparent;
+      color: var(--primary);
+      border: 1px solid rgba(251, 191, 36, 0.4);
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .action-btn-home:hover {
+      background: rgba(251, 191, 36, 0.1);
+    }
+
+    /* Review Section */
+    .review-section {
+      text-align: left;
+      margin-top: 30px;
+      border-top: 1px solid var(--border-subtle);
+      padding-top: 30px;
+    }
+    .review-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .review-item {
+      background: #18181f;
+      border: 1px solid var(--border-subtle);
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    .review-item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+    .badge-correct {
+      background: rgba(16, 185, 129, 0.2);
+      color: #34d399;
+      padding: 4px 12px;
+      border-radius: 20px;
+    }
+    .badge-wrong {
+      background: rgba(239, 68, 68, 0.2);
+      color: #f87171;
+      padding: 4px 12px;
+      border-radius: 20px;
+    }
+    .badge-skipped {
+      background: rgba(161, 161, 170, 0.2);
+      color: #a1a1aa;
+      padding: 4px 12px;
+      border-radius: 20px;
+    }
+    .review-q-text {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 14px;
+      line-height: 1.5;
+    }
+    .review-ans-grid {
+      display: grid;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+    .review-ans-row {
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      background: #20202a;
+      color: #d4d4d8;
+    }
+    .review-ans-row.correct-ans {
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid #10b981;
+      color: #34d399;
+      font-weight: 600;
+    }
+    .review-ans-row.user-wrong {
+      background: rgba(239, 68, 68, 0.15);
+      border: 1px solid #ef4444;
+      color: #f87171;
+      font-weight: 600;
+    }
+
     .loading-state {
       text-align: center;
-      padding: 60px;
+      padding: 60px 20px;
       color: var(--text-secondary);
       font-size: 1.2rem;
     }
-    
+
     /* Security Overlay */
     #premiumOverlay {
       position: fixed;
@@ -236,31 +506,48 @@
     #premiumOverlay.hidden {
       display: none;
     }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
   </style>
 </head>
-<body class="light-mode">
+<body>
   
   <div id="premiumOverlay">
-    <h2>Checking Premium Access...</h2>
+    <h2 style="color: #fbbf24;">⚡ Checking Premium Access...</h2>
   </div>
 
   <div class="mock-container">
     <div class="mock-header">
-      <a href="index.html" class="back-btn">← Home</a>
-      <h1 id="mockPageTitle">International Affairs Mock</h1>
-      <p>Premium Interactive Test • <span id="totalQuestionsCount">0</span> Questions</p>
+      <div class="header-nav-row">
+        <button class="back-btn" onclick="returnToCurrentAffairs()">
+          <span>←</span> Back to Current Affairs
+        </button>
+        
+        <div class="lang-selector" style="margin: 0;">
+          <button class="lang-btn" id="btn-lang-en" onclick="changeMockLanguage('en')">EN</button>
+          <button class="lang-btn" id="btn-lang-hi" onclick="changeMockLanguage('hi')">HI</button>
+          <button class="lang-btn" id="btn-lang-te" onclick="changeMockLanguage('te')">TE</button>
+        </div>
+      </div>
+      
+      <h1 id="mockPageTitle">Mock Test</h1>
+      <p id="mockSubtitle">Interactive Speed Practice • <span id="totalQuestionsCount">0</span> Questions</p>
     </div>
     
     <div id="quizContainer">
       <div class="loading-state" id="loadingState">
-        <p>Loading your mock test...</p>
+        <div style="font-size: 40px; margin-bottom: 12px;">🔄</div>
+        <p>Loading your interactive test questions...</p>
       </div>
       
       <!-- Single Question Card -->
       <div class="quiz-card" id="questionCard">
         <div class="progress-header">
           <span id="questionCounter">Question 1 of 40</span>
-          <span id="scoreCounter">Score: 0</span>
+          <span id="scoreCounter" style="color: var(--primary); font-weight: 800;">Score: 0</span>
         </div>
         <div class="progress-bar">
           <div class="progress-fill" id="progressFill"></div>
@@ -270,25 +557,94 @@
         <div class="options-grid" id="optionsGrid"></div>
         
         <div class="explanation-box" id="explanationBox">
-          <div class="explanation-title">Explanation</div>
+          <div class="explanation-title">💡 Detailed Explanation</div>
           <div class="explanation-text" id="explanationText"></div>
         </div>
         
         <button class="next-btn" id="nextBtn" onclick="nextQuestion()">Next Question ➔</button>
       </div>
       
-      <!-- Result Card -->
+      <!-- Comprehensive Result / Closing Screen -->
       <div class="quiz-card result-card" id="resultCard">
-        <h2>Test Complete! 🎉</h2>
-        <div class="result-score" id="finalScore">0/0</div>
-        <div class="result-text" id="finalMessage">Great effort!</div>
-        <button class="next-btn visible" onclick="window.location.reload()" style="margin-bottom: 12px;">🔄 Retake Test</button>
-        <button class="next-btn visible" onclick="window.location.href='index.html'" style="background: var(--bg-primary); color: var(--text-primary); border: 2px solid var(--border-subtle); box-shadow: none;">Return to Dashboard</button>
+        <span class="result-badge">🏁 TEST COMPLETED</span>
+        <h2 class="result-title">Performance Summary</h2>
+        <p class="result-subtitle" id="finalMessage">Great effort! Review your metrics below.</p>
+        
+        <div class="score-circle-wrap">
+          <div class="score-big" id="finalScoreDisplay">0</div>
+          <div class="score-percent" id="finalPercentDisplay">0% Accuracy</div>
+        </div>
+
+        <div class="result-stats-grid">
+          <div class="result-stat-box">
+            <div class="stat-val" id="statCorrect" style="color: #10b981;">0</div>
+            <div class="stat-label">Correct</div>
+          </div>
+          <div class="result-stat-box">
+            <div class="stat-val" id="statIncorrect" style="color: #ef4444;">0</div>
+            <div class="stat-label">Incorrect</div>
+          </div>
+          <div class="result-stat-box">
+            <div class="stat-val" id="statSkipped" style="color: #a1a1aa;">0</div>
+            <div class="stat-label">Skipped</div>
+          </div>
+          <div class="result-stat-box">
+            <div class="stat-val" id="statTotal" style="color: #fbbf24;">0</div>
+            <div class="stat-label">Total Qs</div>
+          </div>
+        </div>
+
+        <div class="result-actions">
+          <button class="action-btn-primary" onclick="retakeCurrentTest()">🔄 Retake Test</button>
+          <button class="action-btn-secondary" onclick="openMockTopicModal()">🎯 Choose Another Mock Topic</button>
+          <button class="action-btn-home" onclick="returnToCurrentAffairs()">📰 Back to Current Affairs (English)</button>
+        </div>
+
+        <!-- Question Review Section -->
+        <div class="review-section">
+          <div class="review-title">
+            <span>📝</span> Question &amp; Answer Review
+          </div>
+          <div id="reviewQuestionsList">
+            <!-- Dynamically populated review questions -->
+          </div>
+        </div>
       </div>
       
     </div>
   </div>
 
+  <!-- Topic Selector Modal -->
+  <div class="modal-overlay" id="mockTopicModal" style="display:none; position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.8); z-index:10000; justify-content:center; align-items:center;">
+    <div class="modal-content" style="background: #1f1f26; border-radius: 16px; border: 1px solid rgba(255,255,255,0.15); padding: 28px; max-width: 480px; width: 90%;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <h3 style="color: #fbbf24; margin: 0; font-size: 1.3rem;">Select Next Mock Topic</h3>
+        <button onclick="closeMockTopicModal()" style="background: none; border: none; color: #fff; font-size: 1.4rem; cursor: pointer;">✕</button>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <button class="btn-primary" onclick="switchMockTopic('mock_group_1')" style="text-align: left; padding: 14px; background: #272732; color: #fff; border: 1px solid rgba(255,255,255,0.1); border-radius: 10px; cursor: pointer; font-size: 0.95rem;">🌐 Indexes, Reports & International</button>
+        <button class="btn-primary" onclick="switchMockTopic('mock_group_2_3')" style="text-align: left; padding: 14px; background: #272732; color: #fff; border: 1px solid rgba(255,255,255,0.1); border-radius: 10px; cursor: pointer; font-size: 0.95rem;">🏦 Economy, Banking, Science & Tech</button>
+        <button class="btn-primary" onclick="switchMockTopic('mock_group_4')" style="text-align: left; padding: 14px; background: #272732; color: #fff; border: 1px solid rgba(255,255,255,0.1); border-radius: 10px; cursor: pointer; font-size: 0.95rem;">🏆 Awards, Honours & Sports</button>
+        <button class="btn-primary" onclick="switchMockTopic('mock_group_5')" style="text-align: left; padding: 14px; background: #272732; color: #fff; border: 1px solid rgba(255,255,255,0.1); border-radius: 10px; cursor: pointer; font-size: 0.95rem;">⚖️ Polity, Governance & Environment</button>
+        <button class="btn-primary" onclick="switchMockTopic('mock_group_6')" style="text-align: left; padding: 14px; background: #272732; color: #fff; border: 1px solid rgba(255,255,255,0.1); border-radius: 10px; cursor: pointer; font-size: 0.95rem;">📚 Books, Authors & Miscellaneous</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="google_translate_element" style="display: none;"></div>
+
   <script src="mock-test.js"></script>
+  
+  <!-- Google Translate Script for Mock Tests -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,hi,te',
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
