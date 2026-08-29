@@ -696,8 +696,12 @@ function closeTopicModal() {
   document.getElementById('topicModal').style.display = 'none';
 }
 
-function startMockTest(topic) {
-  window.location.href = `mock-test.html?topic=${topic}`;
+function startMockTest(topic, batchName) {
+  let url = `mock-test.html?topic=${topic}`;
+  if (batchName) {
+    url += `&batch=${encodeURIComponent(batchName)}`;
+  }
+  window.location.href = url;
 }
 
 // ── INITIALIZE ────────────────────────────────────────
@@ -1042,7 +1046,7 @@ function setLanguageActiveState() {
   if (activeBtn) activeBtn.classList.add('active');
 }
 
-function translatePage(lang, directToMock = true) {
+function translatePage(lang) {
   const domain = window.location.hostname;
   if(lang === 'en') {
       document.cookie = `googtrans=/en/en; path=/; domain=${domain}`;
@@ -1051,17 +1055,7 @@ function translatePage(lang, directToMock = true) {
       document.cookie = `googtrans=/en/${lang}; path=/; domain=${domain}`;
       document.cookie = `googtrans=/en/${lang}; path=/`;
   }
-  
-  if (directToMock) {
-    if (isUserSubscribed) {
-      window.location.href = `mock-test.html?topic=mock_group_1`;
-    } else {
-      showNotification(`Language set to ${lang.toUpperCase()}. Unlock Full Combo Pass to start Interactive Mock Tests!`, "info");
-      openSubModal('1_year');
-    }
-  } else {
-    window.location.reload();
-  }
+  window.location.reload();
 }
 
 document.addEventListener('DOMContentLoaded', setLanguageActiveState);

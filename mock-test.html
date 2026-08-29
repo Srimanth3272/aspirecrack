@@ -522,17 +522,21 @@
   <div class="mock-container">
     <div class="mock-header">
       <div class="header-nav-row">
-        <button class="back-btn" onclick="returnToCurrentAffairs()">
+        <button class="back-btn notranslate" onclick="returnToCurrentAffairs()">
           <span>←</span> Back to Current Affairs
         </button>
         
-        <div class="lang-selector" style="margin: 0;">
-          <button class="lang-btn" id="btn-lang-en" onclick="changeMockLanguage('en')">EN</button>
-          <button class="lang-btn" id="btn-lang-hi" onclick="changeMockLanguage('hi')">HI</button>
-          <button class="lang-btn" id="btn-lang-te" onclick="changeMockLanguage('te')">TE</button>
+        <div class="lang-selector notranslate" translate="no" style="margin: 0;">
+          <button class="lang-btn notranslate" id="btn-lang-en" onclick="changeMockLanguage('en')">EN</button>
+          <button class="lang-btn notranslate" id="btn-lang-hi" onclick="changeMockLanguage('hi')">HI</button>
+          <button class="lang-btn notranslate" id="btn-lang-te" onclick="changeMockLanguage('te')">TE</button>
         </div>
       </div>
       
+      <div id="batchNotice" style="display:none; background: rgba(251,191,36,0.15); border: 1px solid rgba(251,191,36,0.4); color: #fbbf24; padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; font-weight: 700; margin-top: 6px;">
+        🚀 Live Batch Commences September 14 • Pre-Batch Foundation Practice Active
+      </div>
+
       <h1 id="mockPageTitle">Mock Test</h1>
       <p id="mockSubtitle">Interactive Speed Practice • <span id="totalQuestionsCount">0</span> Questions</p>
     </div>

@@ -29,9 +29,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const overlay = document.getElementById("premiumOverlay");
   if (overlay) overlay.classList.add("hidden");
   
-  // Parse URL for topic
+  // Parse URL for topic & batch
   const urlParams = new URLSearchParams(window.location.search);
   const topic = urlParams.get('topic');
+  const batch = urlParams.get('batch');
   
   if (topic && mockTitles[topic]) {
     currentTopic = topic;
@@ -41,6 +42,15 @@ document.addEventListener('DOMContentLoaded', () => {
     currentTopic = 'mock_group_1';
     jsonFile = 'mock_group_1.json';
     topicTitle = 'Indexes, Reports & International Affairs Mock';
+  }
+
+  // Handle Sep 14 batch notice
+  if (batch) {
+    const notice = document.getElementById('batchNotice');
+    if (notice) {
+      notice.style.display = 'inline-block';
+      notice.innerText = `🚀 ${decodeURIComponent(batch)} (Commences Sep 14) • Pre-Batch Practice`;
+    }
   }
   
   // Update UI title
@@ -311,11 +321,6 @@ function switchMockTopic(topic) {
    MULTILINGUAL & BACK NAVIGATION FLOW
    ----------------------------------------------- */
 function returnToCurrentAffairs() {
-  const domain = window.location.hostname;
-  document.cookie = `googtrans=/en/en; path=/; domain=${domain}`;
-  document.cookie = `googtrans=/en/en; path=/`;
-  document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=${domain}`;
-  document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/`;
   window.location.href = "index.html";
 }
 
