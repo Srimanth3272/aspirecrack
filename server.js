@@ -27,6 +27,11 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(express.static(__dirname));
 
+// Fix for the PDF with spaces in the URL
+app.get('/formula book to crack maths.pdf', (req, res) => {
+  res.redirect('/formula_book_to_crack_maths.pdf');
+});
+
 // ── IN-MEMORY CACHE FOR HIGH CONCURRENCY ────────────────────
 let cachedData = null;
 
