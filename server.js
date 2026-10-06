@@ -125,7 +125,16 @@ app.post('/api/google-auth', async (req, res) => {
       user = new User({ email, isGoogleUser: true });
       await user.save();
     }
-    
+
+    let subStatus = user.isSubscribed;
+    if (user.email === 'sreemanthnagalakunta@gmail.com') {
+      subStatus = true;
+    } else if (subStatus && user.subscriptionExpiry < new Date()) {
+      user.isSubscribed = false;
+      await user.save();
+      subStatus = false;
+    }
+
     const jwtToken = jwt.sign({ id: user._id, email: user.email }, JWT_SECRET);
     res.json({ success: true, token: jwtToken, isSubscribed: user.isSubscribed });
   } catch (err) {
@@ -397,6 +406,7 @@ app.listen(PORT, () => {
   console.log(`🚀 AspireCrack Automated Server running on http://localhost:${PORT}`);
   console.log(`⏰ Daily auto-update cron scheduled for 07:00 AM (Asia/Kolkata)`);
 });
+
 
 
 
