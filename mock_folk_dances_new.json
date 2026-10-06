@@ -1,0 +1,486 @@
+[
+  {
+    "question": "Bihu is a folk music and dance form associated with which Indian state?",
+    "options": {
+      "A": "Kerala",
+      "B": "Gujarat",
+      "C": "Assam",
+      "D": "Punjab"
+    },
+    "correct": "C",
+    "explanation": "Bihu is associated with Assam."
+  },
+  {
+    "question": "'Jhijhia' dance is related to which of the following Indian state?",
+    "options": {
+      "A": "Maharashtra",
+      "B": "Bihar",
+      "C": "Himachal Pradesh",
+      "D": "Karnataka"
+    },
+    "correct": "B",
+    "explanation": "'Jhijhia' dance is related to Bihar."
+  },
+  {
+    "question": "Which of the following is a dance from Chhattisgarh?",
+    "options": {
+      "A": "Bison Horn Maria",
+      "B": "Gaddi Nati",
+      "C": "Baiga Pardhoni",
+      "D": "Bagurumba"
+    },
+    "correct": "A",
+    "explanation": "Bison Horn Maria is a dance from Chhattisgarh."
+  },
+  {
+    "question": "The word popularily used for drama in Chhattisgarh is———— .",
+    "options": {
+      "A": "Ponung",
+      "B": "Gammat",
+      "C": "Lavani",
+      "D": "Maand"
+    },
+    "correct": "B",
+    "explanation": "Gammat is the word popularly used for drama in Chhattisgarh."
+  },
+  {
+    "question": "Which of the following folk dance of Chhattisgarh is also known as 'Parrot dance'?",
+    "options": {
+      "A": "Suwa Dance",
+      "B": "Kolatam Dance",
+      "C": "Lambadi Dance",
+      "D": "Aoling Monyu Dance"
+    },
+    "correct": "A",
+    "explanation": "Suwa Dance is also known as Parrot dance."
+  },
+  {
+    "question": "In which state is the dance form 'Pandwani' performed?",
+    "options": {
+      "A": "Madhya Pradesh",
+      "B": "Chhattisgarh",
+      "C": "Jharkhand",
+      "D": "Kerala"
+    },
+    "correct": "B",
+    "explanation": "Pandwani is performed in Chhattisgarh."
+  },
+  {
+    "question": "Fill in the Blank: Panthi dancers wear ____ during performance.",
+    "options": {
+      "A": "Kurta",
+      "B": "Dhoti",
+      "C": "Saree",
+      "D": "Lungi"
+    },
+    "correct": "B",
+    "explanation": "Panthi dancers wear Dhoti during performance."
+  },
+  {
+    "question": "'Manjira Nritya' is performed by which of the following community in Gujarat?",
+    "options": {
+      "A": "Padhaar community",
+      "B": "Mappila community",
+      "C": "Konyak community",
+      "D": "Pangal community"
+    },
+    "correct": "A",
+    "explanation": "Manjira Nritya is performed by the Padhaar community."
+  },
+  {
+    "question": "Shikaar Nritya is a traditional dance of which Indian state?",
+    "options": {
+      "A": "Meghalaya",
+      "B": "Gujarat",
+      "C": "Andhra Pradesh",
+      "D": "Haryana"
+    },
+    "correct": "B",
+    "explanation": "Shikaar Nritya is a traditional dance of Gujarat."
+  },
+  {
+    "question": "Tippani is a traditional folk dance performed mainly by women in which Indian state?",
+    "options": {
+      "A": "Rajasthan",
+      "B": "Gujarat",
+      "C": "Maharashtra",
+      "D": "Punjab"
+    },
+    "correct": "B",
+    "explanation": "Tippani is performed in Gujarat."
+  },
+  {
+    "question": "Consider the statements about Dangi:\n1. Performed by Dangi Adivasis of Dang district, Gujarat.\n2. The dance is a solo narrative mimicking farm tools. Which is/are correct?",
+    "options": {
+      "A": "Only 1 correct",
+      "B": "Only 2 correct",
+      "C": "Both 1 & 2 correct",
+      "D": "Neither 1 nor 2 correct"
+    },
+    "correct": "A",
+    "explanation": "Statement 1 is correct. It is a group dance, not solo."
+  },
+  {
+    "question": "Which Indian state is known for the folk dance \"Dekhni\"?",
+    "options": {
+      "A": "Goa",
+      "B": "Jharkhand",
+      "C": "Haryana",
+      "D": "Uttar Pradesh"
+    },
+    "correct": "A",
+    "explanation": "Dekhni is a folk dance of Goa."
+  },
+  {
+    "question": "Which of the following dance is related to Himachal Pradesh?",
+    "options": {
+      "A": "Pheiphit Lam",
+      "B": "Garia",
+      "C": "Hojagiri",
+      "D": "Chhatrari"
+    },
+    "correct": "D",
+    "explanation": "Chhatrari is related to Himachal Pradesh."
+  },
+  {
+    "question": "Which of the following is popular dance of the state of Himanchal Pradesh?",
+    "options": {
+      "A": "Fugdi",
+      "B": "Sattriya",
+      "C": "Jhumar",
+      "D": "Shand and Shabu"
+    },
+    "correct": "D",
+    "explanation": "Shand and Shabu is a popular dance of Himachal Pradesh."
+  },
+  {
+    "question": "Fill in the Blank: Thoda is performed mostly by ____ community.",
+    "options": {
+      "A": "Rajputs",
+      "B": "Brahmins",
+      "C": "Jats",
+      "D": "Ahirs"
+    },
+    "correct": "A",
+    "explanation": "Thoda is performed mostly by the Rajputs community."
+  },
+  {
+    "question": "Consider the statements about Dumhal:\n1. Exclusively Wattal men plant a banner before dancing.\n2. It celebrates apple harvests in southern Kashmir.\nWhich is/are correct?",
+    "options": {
+      "A": "Only 1 correct",
+      "B": "Only 2 correct",
+      "C": "Both 1 & 2 correct",
+      "D": "Neither 1 nor 2 correct"
+    },
+    "correct": "A",
+    "explanation": "Only statement 1 is correct."
+  },
+  {
+    "question": "What is the most notable feature of the Rouf dance of Kashmir?",
+    "options": {
+      "A": "Colorful costumes",
+      "B": "Hand gestures",
+      "C": "Footwork of dancers",
+      "D": "Musical instruments"
+    },
+    "correct": "C",
+    "explanation": "The most notable feature is the footwork of dancers."
+  },
+  {
+    "question": "Consider the statements about Rauf:\n1. It is a women's group dance of Kashmir usually performed at Eid.\n2. Dancers align in two facing rows executing toe-heel footwork called ras. Which is/are correct?",
+    "options": {
+      "A": "Only 1 correct",
+      "B": "Only 2 correct",
+      "C": "Both 1 & 2 correct",
+      "D": "Neither 1 nor 2 correct"
+    },
+    "correct": "C",
+    "explanation": "Both statements are correct."
+  },
+  {
+    "question": "Consider the statements about Jhumar :\n1. It is a harvest dance of Jharkhand, performed in linked rows with mandar and nagara drums.\n2. Women alone perform the Mardani variant wielding swords.\nWhich is/are correct?",
+    "options": {
+      "A": "Only 1 correct",
+      "B": "Only 2 correct",
+      "C": "Both 1 & 2 correct",
+      "D": "Neither 1 nor 2 correct"
+    },
+    "correct": "A",
+    "explanation": "Only statement 1 is correct."
+  },
+  {
+    "question": "'Veeragase' is a traditional folk dance of which Indian state?",
+    "options": {
+      "A": "Karnataka",
+      "B": "Bihar",
+      "C": "Tripura",
+      "D": "Jharkhand"
+    },
+    "correct": "A",
+    "explanation": "Veeragase is from Karnataka."
+  },
+  {
+    "question": "\"Yakshagana\" is a traditional folk dance from which state?",
+    "options": {
+      "A": "Karnataka",
+      "B": "Gujarat",
+      "C": "Odisha",
+      "D": "West Bengal"
+    },
+    "correct": "A",
+    "explanation": "Yakshagana is from Karnataka."
+  },
+  {
+    "question": "The folk dance Dollu Kunitha, performed with large drums, belongs to which region?",
+    "options": {
+      "A": "Andhra Pradesh",
+      "B": "Telangana",
+      "C": "Karnataka",
+      "D": "Kerala"
+    },
+    "correct": "C",
+    "explanation": "Dollu Kunitha is from Karnataka."
+  },
+  {
+    "question": "Which of the following dances is typically performed during weddings in Kerala?",
+    "options": {
+      "A": "Oppana",
+      "B": "Hojagiri",
+      "C": "Giddha",
+      "D": "Dhamyal"
+    },
+    "correct": "A",
+    "explanation": "Oppana is performed during weddings in Kerala."
+  },
+  {
+    "question": "Which of the following is a traditional dance of Kerala?",
+    "options": {
+      "A": "Theyyam",
+      "B": "Dhol Cholom",
+      "C": "Giddha",
+      "D": "Bhangra"
+    },
+    "correct": "A",
+    "explanation": "Theyyam is a traditional dance of Kerala."
+  },
+  {
+    "question": "'Kakkarissi Natakam' is a satirical dance-drama of which of the following state?",
+    "options": {
+      "A": "Gujarat",
+      "B": "Kerala",
+      "C": "Maharashtra",
+      "D": "Tripura"
+    },
+    "correct": "B",
+    "explanation": "It is from Kerala."
+  },
+  {
+    "question": "Thang-Ta is a traditional martial dance associated with which northeastern state of India?",
+    "options": {
+      "A": "Assam",
+      "B": "Nagaland",
+      "C": "Manipur",
+      "D": "Tripura"
+    },
+    "correct": "C",
+    "explanation": "Thang-Ta is from Manipur."
+  },
+  {
+    "question": "The dance form Ka Shad Suk Mynsiem is a thanks giving dance of which community?",
+    "options": {
+      "A": "Khasi",
+      "B": "Ao",
+      "C": "Apatani",
+      "D": "Adi"
+    },
+    "correct": "A",
+    "explanation": "It is a thanksgiving dance of the Khasi community."
+  },
+  {
+    "question": "Which traditional dance of Mizoram is performed to celebrate victory in war?",
+    "options": {
+      "A": "Kodava",
+      "B": "Chamba",
+      "C": "So Lakia",
+      "D": "Dumhal"
+    },
+    "correct": "C",
+    "explanation": "So Lakia is performed in Mizoram to celebrate victory."
+  },
+  {
+    "question": "\"Tlanglam' is a famous dance performed in which of the following Indian state/Union Territory?",
+    "options": {
+      "A": "Mizoram",
+      "B": "Kerala",
+      "C": "Himachal Pradesh",
+      "D": "Jammu and Kashmir"
+    },
+    "correct": "A",
+    "explanation": "Tlanglam is from Mizoram."
+  },
+  {
+    "question": "Cheraw, the bamboo dance performed using crossed bamboo sticks, is a folk dance of which state?",
+    "options": {
+      "A": "Mizoram",
+      "B": "Meghalaya",
+      "C": "Arunachal Pradesh",
+      "D": "Sikkim"
+    },
+    "correct": "A",
+    "explanation": "Cheraw is from Mizoram."
+  },
+  {
+    "question": "Lavani is a rhythmic and sensual folk dance form from Maharashtra. What is the traditional percussion instrument used to accompany it?",
+    "options": {
+      "A": "Mridangam",
+      "B": "Tabla",
+      "C": "Dholki",
+      "D": "Nagada"
+    },
+    "correct": "C",
+    "explanation": "Dholki is used in Lavani."
+  },
+  {
+    "question": "Consider the statements about Tamasha :\n1. It is a Marathi folk-theatre genre often staged in villages during Shimga (Holika).\n2. The Kolhati community is traditionally linked with Tamasha troupes.\nWhich is/are correct?",
+    "options": {
+      "A": "Only 1 correct",
+      "B": "Only 2 correct",
+      "C": "Both 1 & 2 correct",
+      "D": "Neither 1 nor 2 correct"
+    },
+    "correct": "C",
+    "explanation": "Both statements are correct."
+  },
+  {
+    "question": "Fill in the Blank:\nKoli dance is traditionally performed by the ______ community.",
+    "options": {
+      "A": "Fisherfolk",
+      "B": "Farmers",
+      "C": "Shepherds",
+      "D": "Weavers"
+    },
+    "correct": "A",
+    "explanation": "Koli dance is performed by fisherfolk."
+  },
+  {
+    "question": "'Ranapa' is a martial dance associated with which of the following Indian states?",
+    "options": {
+      "A": "Haryana",
+      "B": "Rajasthan",
+      "C": "Manipur",
+      "D": "Odisha"
+    },
+    "correct": "D",
+    "explanation": "Ranapa is from Odisha."
+  },
+  {
+    "question": "'Gotipua Nacha' belongs to which of the following Indian state?",
+    "options": {
+      "A": "Haryana",
+      "B": "Nagaland",
+      "C": "Tripura",
+      "D": "Odisha"
+    },
+    "correct": "D",
+    "explanation": "Gotipua Nacha is from Odisha."
+  },
+  {
+    "question": "Arrange the performance segments of Paika Nritya\n1. Blowing the war conch (shankha)\n2. Shield-sword sparring drills\n3. Acrobatic somersaults\n4. Group victory shout of \"Jai Jagannath\"",
+    "options": {
+      "A": "1-2-3-4",
+      "B": "2-1-3-4",
+      "C": "1-3-2-4",
+      "D": "3-2-1-4"
+    },
+    "correct": "A",
+    "explanation": "The correct sequence is 1-2-3-4."
+  },
+  {
+    "question": "Fill in the Blank:\nGhoomar means ______ in Rajasthani.",
+    "options": {
+      "A": "Jump",
+      "B": "Twirl",
+      "C": "Sing",
+      "D": "Celebrate"
+    },
+    "correct": "B",
+    "explanation": "Ghoomar means twirl."
+  },
+  {
+    "question": "In which Indian state is the folk-dance form 'Terah Taali' traditionally performed?",
+    "options": {
+      "A": "Rajasthan",
+      "B": "Jharkhand",
+      "C": "Kerala",
+      "D": "Odisha"
+    },
+    "correct": "A",
+    "explanation": "Terah Taali is from Rajasthan."
+  },
+  {
+    "question": "Consider the statements about Kalbelia :\n1. Female costumes are black swirling skirts richly mirror-embroidered.\n2. It entered UNESCO Representative List in 2010.\nWhich is/are correct?",
+    "options": {
+      "A": "Only 1 correct",
+      "B": "Only 2 correct",
+      "C": "Both 1 & 2 correct",
+      "D": "Neither 1 nor 2 correct"
+    },
+    "correct": "C",
+    "explanation": "Both statements are correct."
+  },
+  {
+    "question": "Consider the statements about Ghoomar :\n1. Its earliest performers were Bhil women; Rajputs later adopted it.\n2. Ghoomar was inscribed on UNESCO ICH list in 2015.\nWhich is/are correct?",
+    "options": {
+      "A": "Only 1 correct",
+      "B": "Only 2 correct",
+      "C": "Both 1 & 2 correct",
+      "D": "Neither 1 nor 2 correct"
+    },
+    "correct": "A",
+    "explanation": "Only statement 1 is correct."
+  },
+  {
+    "question": "Fill in the Blank: Kalbelia dance represents the movement of _____.",
+    "options": {
+      "A": "Camels",
+      "B": "Snakes",
+      "C": "Birds",
+      "D": "Horses"
+    },
+    "correct": "B",
+    "explanation": "Kalbelia dance represents the movement of snakes."
+  },
+  {
+    "question": "Which of the following is a traditional dance associated with the culture of Sikkim?",
+    "options": {
+      "A": "Loor",
+      "B": "Dindi",
+      "C": "Padhar",
+      "D": "Snow Lion"
+    },
+    "correct": "D",
+    "explanation": "Snow Lion dance is from Sikkim."
+  },
+  {
+    "question": "Which of the following is performed by women during the Sikkim weddings?",
+    "options": {
+      "A": "Maruni",
+      "B": "Chhau",
+      "C": "Giddha",
+      "D": "Lavani"
+    },
+    "correct": "A",
+    "explanation": "Maruni is performed during weddings in Sikkim."
+  },
+  {
+    "question": "Which traditional dance of Tamil Nadu is performed by women dancing in a circle while clapping their hands to a rhythm?",
+    "options": {
+      "A": "Kummi",
+      "B": "Tusu",
+      "C": "Giddha",
+      "D": "Kathi"
+    },
+    "correct": "A",
+    "explanation": "Kummi is a traditional dance of Tamil Nadu."
+  }
+]

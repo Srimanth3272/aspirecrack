@@ -1,7 +1,7 @@
 'use strict';
 
 /* ═══════════════════════════════════════════════
-   ExamEdge AI — Production Application Script
+   AspireCrack — Production Application Script
    All Govt Exams | PDF | Error Reporting | MCQs
    ═══════════════════════════════════════════════ */
 
@@ -262,7 +262,7 @@ function downloadPDF() {
   // Store original title, set PDF-friendly title
   const originalTitle = document.title;
   const date = document.getElementById('currentDate')?.textContent || 'Current Affairs';
-  document.title = `ExamEdge AI — Daily Current Affairs — ${date}`;
+  document.title = `AspireCrack — Daily Current Affairs — ${date}`;
 
   // Show all hidden content for PDF
   document.querySelectorAll('.topic-card.hidden').forEach(c => {
@@ -353,9 +353,9 @@ function submitErrorReport() {
   };
 
   // Save to localStorage as evidence of error reports
-  const existing = JSON.parse(localStorage.getItem('examedge_error_reports') || '[]');
+  const existing = JSON.parse(localStorage.getItem('AspireCrack_error_reports') || '[]');
   existing.push(report);
-  localStorage.setItem('examedge_error_reports', JSON.stringify(existing));
+  localStorage.setItem('AspireCrack_error_reports', JSON.stringify(existing));
 
   console.log('Error Report Submitted:', report);
 
@@ -367,7 +367,7 @@ function submitErrorReport() {
 function showNotification(message, type = 'info') {
   const toast = document.createElement('div');
   toast.style.cssText = `
-    position:fixed;bottom:20px;right:20px;z-index:9999;
+    position:fixed;bottom:20px;right:20px;z-index:2999;
     background:${type === 'success' ? 'rgba(52,211,153,0.15)' : 'rgba(79,156,249,0.15)'};
     border:1px solid ${type === 'success' ? 'rgba(52,211,153,0.4)' : 'rgba(79,156,249,0.4)'};
     color:${type === 'success' ? '#34d399' : '#4f9cf9'};
@@ -453,7 +453,7 @@ async function loadLatestData() {
     if (data.isSubscribed !== undefined) {
       const prevSubStatus = isUserSubscribed;
       isUserSubscribed = data.isSubscribed;
-      localStorage.setItem("examedge_subscribed", data.isSubscribed);
+      localStorage.setItem("AspireCrack_subscribed", data.isSubscribed);
       updateAuthUI();
       
       // If subscription expired, notify user and open upgrade modal
@@ -721,7 +721,7 @@ document.addEventListener('DOMContentLoaded', () => {
     showNotification("📚 Automated AI Current Affairs loaded! Press Ctrl+P to save as PDF.", 'info');
   }, 2000);
 
-  console.log('✅ ExamEdge AI — Automated Production Portal Loaded');
+  console.log('✅ AspireCrack — Automated Production Portal Loaded');
 });
 
 window.addEventListener('resize', updateStickyOffsets);
@@ -735,8 +735,8 @@ document.head.appendChild(style);
    AUTHENTICATION & SUBSCRIPTION LOGIC
    ----------------------------------------------- */
 let isLoginMode = true;
-let currentUserToken = localStorage.getItem("examedge_token") || null;
-let isUserSubscribed = localStorage.getItem("examedge_subscribed") === "true";
+let currentUserToken = localStorage.getItem("AspireCrack_token") || null;
+let isUserSubscribed = localStorage.getItem("AspireCrack_subscribed") === "true";
 
 // Attach token to API requests
 const originalFetch = window.fetch;
@@ -754,7 +754,7 @@ let selectedPlanId = '1_year';
 
 function updateAuthUI() {
   const authBtn = document.getElementById("authBtn");
-  const savedPlan = localStorage.getItem("examedge_plan");
+  const savedPlan = localStorage.getItem("AspireCrack_plan");
   if(currentUserToken && authBtn) {
     let planBadge = "Premium Active";
     if (savedPlan === '1_year') planBadge = "👑 1 Year Full Combo";
@@ -804,7 +804,7 @@ function toggleAuthMode() {
   isLoginMode = !isLoginMode;
   document.getElementById("authTitle").innerText = isLoginMode ? "Sign In" : "Sign Up";
   const authSub = document.getElementById("authSubtitle");
-  if (authSub) authSub.innerText = isLoginMode ? "Log in to access your ExamEdge account." : "Create a new ExamEdge account.";
+  if (authSub) authSub.innerText = isLoginMode ? "Log in to access your AspireCrack account." : "Create a new AspireCrack account.";
   document.querySelector(".auth-switch").innerText = isLoginMode ? "Need an account? Sign up" : "Already have an account? Sign in";
   
   const forgotLink = document.getElementById("forgotPasswordLink");
@@ -880,8 +880,8 @@ async function handleCredentialResponse(response) {
     if (data.success) {
       currentUserToken = data.token;
       isUserSubscribed = data.isSubscribed;
-      localStorage.setItem("examedge_token", data.token);
-      localStorage.setItem("examedge_subscribed", data.isSubscribed);
+      localStorage.setItem("AspireCrack_token", data.token);
+      localStorage.setItem("AspireCrack_subscribed", data.isSubscribed);
       closeAuthModal();
       updateAuthUI();
       loadLatestData();
@@ -910,8 +910,8 @@ async function handleAuth() {
     if(data.success) {
       currentUserToken = data.token;
       isUserSubscribed = data.isSubscribed;
-      localStorage.setItem("examedge_token", data.token);
-      localStorage.setItem("examedge_subscribed", data.isSubscribed);
+      localStorage.setItem("AspireCrack_token", data.token);
+      localStorage.setItem("AspireCrack_subscribed", data.isSubscribed);
       closeAuthModal();
       updateAuthUI();
       loadLatestData(); // Reload data with token
@@ -981,7 +981,7 @@ async function initiatePayment(planId) {
       key: keyData.key,
       amount: orderData.amount,
       currency: "INR",
-      name: "ExamEdge AI",
+      name: "AspireCrack",
       description: `${planInfo.name} — ₹${planInfo.price}`,
       order_id: orderData.id,
       prefill: {
@@ -1003,8 +1003,8 @@ async function initiatePayment(planId) {
           const verifyData = await verifyRes.json();
           if(verifyData.success) {
             isUserSubscribed = true;
-            localStorage.setItem("examedge_subscribed", "true");
-            localStorage.setItem("examedge_plan", targetPlan);
+            localStorage.setItem("AspireCrack_subscribed", "true");
+            localStorage.setItem("AspireCrack_plan", targetPlan);
             closeSubModal();
             updateAuthUI();
             loadLatestData();
@@ -1059,3 +1059,6 @@ function translatePage(lang) {
 }
 
 document.addEventListener('DOMContentLoaded', setLanguageActiveState);
+
+
+

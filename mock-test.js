@@ -11,14 +11,32 @@ const mockTitles = {
   'mock_group_2_3': 'Economy, Banking, Science & Tech',
   'mock_group_4': 'Awards, Honours & Sports',
   'mock_group_5': 'Polity, Governance & Environment',
-  'mock_group_6': 'Books, Authors & Miscellaneous'
+  'mock_group_6': 'Books, Authors & Miscellaneous',
+  'mock_folk_dances_1': 'Folk Dances - Part 1',
+  'mock_folk_dances_2': 'Folk Dances - Part 2',
+  'mock_festivals_1': 'Festivals - Part 1',
+  'mock_festivals_2': 'Festivals - Part 2',
+  'mock_books_authors_1': 'Books & Authors - Part 1',
+  'mock_books_authors_2': 'Books & Authors - Part 2',
+  'mock_sports_1': 'Sports - Part 1',
+  'mock_sports_2': 'Sports - Part 2',
+  'mock_economy_new': 'Economy One Shot',
+  'mock_polity_new': 'Polity & Governance',
+  'mock_science': 'Science & Technology',
+  'mock_folk_dances_new': 'Folk Dances',
+  'mock_ssc_cgl_1': 'SSC CGL Expected Paper 1',
+  'mock_ssc_cgl_2': 'SSC CGL Expected Paper 2',
+  'mock_ssc_cgl_3': 'SSC CGL Expected Paper 3',
+  'mock_ssc_cgl_4': 'SSC CGL Expected Paper 4',
+  'mock_ssc_cgl_5': 'SSC CGL Expected Paper 5',
+  'mock_ssc_cgl_6': 'SSC CGL Expected Paper 6',
 };
 
 document.addEventListener('DOMContentLoaded', () => {
   setMockLanguageActiveState();
 
   // 1. Premium Access Check
-  const isSubscribed = localStorage.getItem("examedge_subscribed") === "true";
+  const isSubscribed = localStorage.getItem("AspireCrack_subscribed") === "true";
   if (!isSubscribed) {
     alert("Please unlock the Full Combo Pass (₹299) to access interactive Mock Tests.");
     returnToCurrentAffairs();
@@ -55,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Update UI title
   document.getElementById('mockPageTitle').innerText = topicTitle;
-  document.title = `${topicTitle} - ExamEdge AI`;
+  document.title = `${topicTitle} - AspireCrack`;
   
   loadQuizData();
 });
@@ -348,4 +366,8 @@ function setMockLanguageActiveState() {
   const activeBtn = document.getElementById(`btn-lang-${lang}`);
   if (activeBtn) activeBtn.classList.add('active');
 }
+
+
+
+
 

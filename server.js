@@ -53,8 +53,8 @@ function loadDataToCache() {
 loadDataToCache();
 
 // ── MONGODB & USER SCHEMA ───────────────────────────────────
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/examedge';
-const JWT_SECRET = process.env.JWT_SECRET || 'your_super_secret_key_examedge';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/AspireCrack';
+const JWT_SECRET = process.env.JWT_SECRET || 'your_super_secret_key_AspireCrack';
 
 mongoose.connect(MONGODB_URI)
   .then(() => console.log('✅ Connected to MongoDB Database'))
@@ -85,7 +85,7 @@ const SUBSCRIPTION_PLANS = {
     price: 79,
     amount: 7900, // ₹79 in paise
     durationDays: 90,
-    description: 'ExamEdge AI — 3 Months Access (₹79)'
+    description: 'AspireCrack — 3 Months Access (₹79)'
   },
   '6_months': {
     id: '6_months',
@@ -93,7 +93,7 @@ const SUBSCRIPTION_PLANS = {
     price: 149,
     amount: 14900, // ₹149 in paise
     durationDays: 180,
-    description: 'ExamEdge AI — 6 Months Access (₹149)'
+    description: 'AspireCrack — 6 Months Access (₹149)'
   },
   '1_year': {
     id: '1_year',
@@ -101,7 +101,7 @@ const SUBSCRIPTION_PLANS = {
     price: 299,
     amount: 29900, // ₹299 in paise
     durationDays: 365,
-    description: 'ExamEdge AI — 1 Year Full Master Combo (All Subjects Covered) (₹299)'
+    description: 'AspireCrack — 1 Year Full Master Combo (All Subjects Covered) (₹299)'
   }
 };
 
@@ -148,7 +148,7 @@ app.post('/api/forgot-password', async (req, res) => {
     const mailOptions = {
       from: process.env.EMAIL_USER,
       to: email,
-      subject: 'ExamEdge Password Reset',
+      subject: 'AspireCrack Password Reset',
       text: `You requested a password reset.\n\nPlease copy this token to reset your password:\n\n${resetToken}\n\nIf you did not request this, please ignore this email.`
     };
 
@@ -394,6 +394,9 @@ cron.schedule('0 7 * * *', async () => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🚀 ExamEdge AI Automated Server running on http://localhost:${PORT}`);
+  console.log(`🚀 AspireCrack Automated Server running on http://localhost:${PORT}`);
   console.log(`⏰ Daily auto-update cron scheduled for 07:00 AM (Asia/Kolkata)`);
 });
+
+
+

@@ -1,0 +1,277 @@
+[
+  {
+    "question": "Under the historic Trade and Economic Partnership Agreement (TEPA) signed in March 2024 between India and the European Free Trade Association (EFTA), what key investment commitment was made to India?",
+    "options": {
+      "A": "Investment of $50 billion over 10 years and creation of 5 lakh direct jobs",
+      "B": "Investment of $100 billion over 15 years and creation of 1 million direct jobs",
+      "C": "Unconditional establishment of a $75 billion clean-energy sovereign fund",
+      "D": "Complete tariff exemption on all agricultural products with zero investment condition"
+    },
+    "correct": "B",
+    "explanation": "EFTA committed to a $100 billion investment over 15 years and the creation of 1 million direct jobs in India."
+  },
+  {
+    "question": "With reference to rural-urban interactions and settlement geography, which of the following statements is/are correct?\n1. The rural-urban fringe represents a transition zone where urban and rural land uses overlap\n2. The rural-urban continuum suggests that rural and urban communities exist as completely isolated and independent entities\n3. Remittances sent by urban migrants to their native villages constitute a significant economic linkage between urban and rural areas",
+    "options": {
+      "A": "1 and 2 only",
+      "B": "2 and 3 only",
+      "C": "1 and 3 only",
+      "D": "1, 2 and 3"
+    },
+    "correct": "C",
+    "explanation": "The rural-urban fringe is a transition zone, and remittances are a significant economic linkage. They are not completely isolated entities."
+  },
+  {
+    "question": "Which of the following is one of the three primary domains evaluated by the Institute for Economics and Peace (IEP) to determine the Global Peace Index?",
+    "options": {
+      "A": "Militarisation",
+      "B": "Environmental Sustainability",
+      "C": "Digital Infrastructure",
+      "D": "Healthcare Expenditure"
+    },
+    "correct": "A",
+    "explanation": "The Global Peace Index evaluates Militarisation, Ongoing Domestic and International Conflict, and Societal Safety and Security."
+  },
+  {
+    "question": "Consider the following statements regarding the famous 'Bastar Dussehra' festival of Chhattisgarh:\n1. It is celebrated over a period of 75 days, making it one of the longest festivals in the world\n2. The festival is dedicated to Goddess Danteshwari, the presiding deity of Bastar\n3. Like other parts of northern India, it culminates with the burning of giant effigies of Ravana to celebrate Rama's victory\nWhich of the statements given above are correct?",
+    "options": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "1, 2 and 3"
+    },
+    "correct": "A",
+    "explanation": "Bastar Dussehra is a 75-day festival dedicated to Goddess Danteshwari, and unlike other regions, it does not involve burning Ravana's effigies."
+  },
+  {
+    "question": "In the light-dependent reactions of photosynthesis, which of the following pigments forms the core 'reaction centre' of photosystems?",
+    "options": {
+      "A": "Xanthophyll",
+      "B": "Carotenoid",
+      "C": "Chlorophyll b",
+      "D": "Chlorophyll a"
+    },
+    "correct": "D",
+    "explanation": "Chlorophyll a is the core reaction center in photosystems I and II."
+  },
+  {
+    "question": "In eukaryotic cells, in which part of the cell does the Krebs cycle (citric acid cycle) take place?",
+    "options": {
+      "A": "Cytoplasm",
+      "B": "Mitochondrial matrix",
+      "C": "Lysosome",
+      "D": "Golgi apparatus"
+    },
+    "correct": "B",
+    "explanation": "The Krebs cycle takes place in the mitochondrial matrix of eukaryotic cells."
+  },
+  {
+    "question": "Who among the following is the author of the acclaimed book 'India After Gandhi: The History of the World's Largest Democracy'?",
+    "options": {
+      "A": "Bipan Chandra",
+      "B": "Ramachandra Guha",
+      "C": "Amartya Sen",
+      "D": "Sunil Khilnani"
+    },
+    "correct": "B",
+    "explanation": "Ramachandra Guha authored 'India After Gandhi'."
+  },
+  {
+    "question": "What is the primary objective of 'Mission Mausam', approved by the Union Cabinet in September 2024?",
+    "options": {
+      "A": "To develop indigenous deep-sea exploration technologies",
+      "B": "To dramatically enhance weather and climate forecasting and surveillance capabilities",
+      "C": "To promote the export of organic agricultural products",
+      "D": "To install rooftop solar panels across all rural households"
+    },
+    "correct": "B",
+    "explanation": "'Mission Mausam' aims to improve weather and climate forecasting and surveillance capabilities."
+  },
+  {
+    "question": "How many times has India hosted the Commonwealth Games as of 2024?",
+    "options": {
+      "A": "Never",
+      "B": "Once",
+      "C": "Twice",
+      "D": "Three times"
+    },
+    "correct": "B",
+    "explanation": "India hosted it once in 2010."
+  },
+  {
+    "question": "Statement 1: Cirques are deep, bowl-shaped depressions formed at the head of glacial valleys with steep sidewalls and headwalls\nStatement 2: Horns are sharp, steep-sided pyramidal peaks formed when three or more radiating cirques erode headward toward a central point\nWhich of the statements given above is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct": "C",
+    "explanation": "Both statements accurately describe the glacial landforms of cirques and horns."
+  },
+  {
+    "question": "Under the Pitt's India Act of 1784, which newly created body was empowered to superintend, direct, and control all civil, military, and revenue affairs of the British territorial possessions in India?",
+    "options": {
+      "A": "Board of Trade",
+      "B": "Council of India",
+      "C": "Board of Control",
+      "D": "Privy Council"
+    },
+    "correct": "C",
+    "explanation": "The Board of Control was created by Pitt's India Act 1784 to oversee political, military, and revenue affairs."
+  },
+  {
+    "question": "For a rigid body rotating about a fixed axis with a uniform angular velocity, the linear speed of any of its particles is:",
+    "options": {
+      "A": "Directly proportional to its distance from the axis of rotation",
+      "B": "Inversely proportional to its distance from the axis of rotation",
+      "C": "Independent of its distance from the axis of rotation",
+      "D": "Inversely proportional to the square of its distance from the axis of rotation"
+    },
+    "correct": "A",
+    "explanation": "Linear speed v = rω. Since angular velocity ω is uniform, v is directly proportional to distance r from the axis of rotation."
+  },
+  {
+    "question": "In the first phase of the Green Revolution (mid-1960s to mid-1970s) in India, the High Yielding Varieties (HYV) technology was predominantly successful in the production of which crop?",
+    "options": {
+      "A": "Cotton",
+      "B": "Pulses",
+      "C": "Wheat",
+      "D": "Oilseeds"
+    },
+    "correct": "C",
+    "explanation": "The Green Revolution initially focused on High Yielding Varieties of wheat."
+  },
+  {
+    "question": "Which of the following statements best describes the central theme of the book 'Watershed: How We Destroyed India's Water and How We Can Save It' authored by Mridula Ramesh?",
+    "options": {
+      "A": "An examination of India's water crisis, its historical roots, and actionable solutions for conservation.",
+      "B": "A biographical account of the engineers who built major dams in post-independence India.",
+      "C": "A fictional narrative centered around inter-state river water disputes in southern India.",
+      "D": "An analysis of international maritime trade routes and colonial naval policies."
+    },
+    "correct": "A",
+    "explanation": "The book discusses India's water crisis, its causes, and provides actionable solutions for water conservation."
+  },
+  {
+    "question": "Arrange the following events in chronological order:\na. Enactment of the North-Eastern Council Act\nb. Appointment of the States Reorganisation Commission (Fazal Ali Commission)\nc. Establishment of the original five Zonal Councils",
+    "options": {
+      "A": "a-b-c",
+      "B": "b-c-a",
+      "C": "c-b-a",
+      "D": "b-a-c"
+    },
+    "correct": "B",
+    "explanation": "Appointment of SRC (1953), Establishment of five Zonal Councils (1956), Enactment of North-Eastern Council Act (1971). Order: b, c, a."
+  },
+  {
+    "question": "Which of the following architectural styles predominantly characterizes the Chhatrapati Shivaji Maharaj Terminus (formerly Victoria Terminus) in Mumbai?",
+    "options": {
+      "A": "Neo-Classical",
+      "B": "Victorian Gothic Revival",
+      "C": "Art Deco",
+      "D": "Romanesque"
+    },
+    "correct": "B",
+    "explanation": "It was designed by Frederick William Stevens, mostly Gothic Revival style."
+  },
+  {
+    "question": "Which of the following targets or goals were outlined under the National Population Policy (NPP) 2000?\n1. Achieving universal immunization of children against all vaccine-preventable diseases\n2. Reducing the Maternal Mortality Ratio (MMR) to below 100 per 100,000 live births\n3. Achieving replacement level of Total Fertility Rate (TFR = 2.1) by 2010\n4. Enforcing a mandatory two-child norm for all citizens",
+    "options": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 4",
+      "C": "Only 1, 2 and 3",
+      "D": "1, 2, 3 and 4"
+    },
+    "correct": "C",
+    "explanation": "NPP 2000 aimed for universal immunization, reducing MMR, and achieving replacement TFR, but it did not enforce a mandatory two-child norm."
+  },
+  {
+    "question": "Consider the following statements regarding petroleum resources in India\n1. Digboi, Naharkatiya, and Moran-Hugrijan are major oilfields located in Assam\n2. Mumbai High is an onshore oilfield situated in the state of Gujarat\nWhich of the statement(s) given above is/are correct?",
+    "options": {
+      "A": "1 only",
+      "B": "2 only",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct": "A",
+    "explanation": "Digboi, Naharkatiya are in Assam. Mumbai High is an offshore oilfield in the Arabian Sea, not onshore in Gujarat."
+  },
+  {
+    "question": "In the tala system of Carnatic music, how many counts (aksharas) does a laghu have in 'Mishra' jaati?",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "7",
+      "D": "9"
+    },
+    "correct": "C",
+    "explanation": "In the Carnatic tala system, a laghu in Mishra jaati has 7 counts."
+  },
+  {
+    "question": "Assertion (A): Pradhan Mantri Jan Dhan Yojana (PMJDY) has significantly boosted financial inclusion in India.\nReason (R): It allows unbanked individuals to open a basic savings bank account with zero minimum balance requirement.",
+    "options": {
+      "A": "Both A and R are true, and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "A",
+    "explanation": "PMJDY boosted financial inclusion by allowing people to open zero-balance bank accounts."
+  },
+  {
+    "question": "Consider the following statements regarding volcanoes:\n1. Shield volcanoes are mostly made up of basalt, which is very fluid when erupted, making them less steep\n2. Barren Island, the only active volcano in India, is located in the Lakshadweep Sea\nWhich of the statements given above is/are correct?",
+    "options": {
+      "A": "1 only",
+      "B": "2 only",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct": "A",
+    "explanation": "Shield volcanoes are made of fluid basalt. Barren Island is located in the Andaman Sea, not Lakshadweep Sea."
+  },
+  {
+    "question": "Which of the following statements is/are correct regarding the National Games of India?\n1. The first National Games organized on the lines of the Olympic Games were held in New Delhi in 1985\n2. The Raja Bhalindra Singh Trophy is awarded to the overall champion team in the National Games",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct": "C",
+    "explanation": "The first modern National Games on Olympic lines were in 1985 in New Delhi, and the Raja Bhalindra Singh Trophy is for the overall champion."
+  },
+  {
+    "question": "Which of the following statements correctly describes joint sector industries?",
+    "options": {
+      "A": "Industries owned and managed entirely by private individuals",
+      "B": "Industries owned and operated exclusively by the government",
+      "C": "Industries owned and operated jointly by the state and individuals or a group of individuals",
+      "D": "Industries established and managed solely by foreign multinational corporations"
+    },
+    "correct": "C",
+    "explanation": "Joint sector industries are jointly owned and operated by the state and private individuals."
+  },
+  {
+    "question": "Which of the following statements about Taekwondo is correct?",
+    "options": {
+      "A": "Taekwondo originated in Japan during the late 19th century.",
+      "B": "It made its debut as an official medal sport at the 2000 Sydney Olympic Games.",
+      "C": "The international governing body, World Taekwondo, was established in 1955.",
+      "D": "It was introduced as an Olympic demonstration sport for the first time at the 1976 Montreal Games."
+    },
+    "correct": "B",
+    "explanation": "Taekwondo is a Korean martial art. It made its debut as an official medal sport at the 2000 Sydney Olympics."
+  },
+  {
+    "question": "In the context of ISRO's Gaganyaan mission, what is the primary purpose of the half-humanoid robot named 'Vyommitra'?",
+    "options": {
+      "A": "To conduct geological and mineral surveys on the lunar surface",
+      "B": "To monitor module parameters and simulate human physiological functions during uncrewed test flights",
+      "C": "To autonomously steer the launch vehicle during the atmospheric ascent phase",
+      "D": "To repair damaged solar panels on the exterior of the spacecraft during orbit"
+    },
+    "correct": "B",
+    "explanation": "Vyommitra is designed to fly aboard uncrewed test flights for Gaganyaan to simulate human functions and monitor module parameters."
+  }
+]

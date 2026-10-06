@@ -1,0 +1,442 @@
+[
+  {
+    "question": "Choose the correct statement regarding public goods.",
+    "options": {
+      "A": "They are non-excludable and non-rival.",
+      "B": "They are excludable and rival.",
+      "C": "They are excludable but non-rival.",
+      "D": "They are non-excludable but rival."
+    },
+    "correct": "A",
+    "explanation": "Public goods are non-excludable and non-rivalrous."
+  },
+  {
+    "question": "Which of the following is the formula for elasticity of supply?",
+    "options": {
+      "A": "% change in price / % change in quantity supplied",
+      "B": "% change in quantity supplied / % change in price",
+      "C": "Original price / change in price",
+      "D": "Change in quantity supplied / original quantity supplied"
+    },
+    "correct": "B",
+    "explanation": "Elasticity of supply is measured as the percentage change in quantity supplied divided by the percentage change in price."
+  },
+  {
+    "question": "What does E in the PESTAL macroeconomic analysis stand for?",
+    "options": {
+      "A": "Economic",
+      "B": "Electronic",
+      "C": "Exchange",
+      "D": "Equal"
+    },
+    "correct": "A",
+    "explanation": "In PESTAL analysis, E stands for Economic."
+  },
+  {
+    "question": "Which of the following statements accurately describes the law of demand in microeconomics?",
+    "options": {
+      "A": "As price increases, demand increases.",
+      "B": "As price decreases, demand decreases.",
+      "C": "As price increases, demand decreases, ceteris paribus.",
+      "D": "Price has no effect on demand."
+    },
+    "correct": "C",
+    "explanation": "The law of demand states that quantity demanded is inversely related to price, ceteris paribus."
+  },
+  {
+    "question": "Which of the following is the defining characteristic of an economic agent?",
+    "options": {
+      "A": "Their role as a producer of goods and services.",
+      "B": "Their function as a consumer of final products.",
+      "C": "Their ability to make economic decisions.",
+      "D": "Their involvement in setting interest rates."
+    },
+    "correct": "C",
+    "explanation": "An economic agent is defined by their ability to make economic decisions."
+  },
+  {
+    "question": "What is a capital goods industry?",
+    "options": {
+      "A": "Industry that deals in external commercial borrowings.",
+      "B": "Industry that exports food products.",
+      "C": "Industry that process raw agricultural product.",
+      "D": "Industry producing machines and tools."
+    },
+    "correct": "D",
+    "explanation": "Capital goods industries produce machines and tools used in the production of other goods."
+  },
+  {
+    "question": "If depreciation is subtracted from Gross Domestic Product (GDP), the resulting value is known as:",
+    "options": {
+      "A": "Net National Product at Market Price",
+      "B": "Net Domestic Product",
+      "C": "Net Factor Income from Abroad",
+      "D": "Gross National Income"
+    },
+    "correct": "B",
+    "explanation": "Net Domestic Product (NDP) equals GDP minus depreciation."
+  },
+  {
+    "question": "What does the term ‘public goods’ refer to?",
+    "options": {
+      "A": "Goods produced only by government",
+      "B": "Goods that are excludable",
+      "C": "Goods accessible to all and non-rival",
+      "D": "Goods exported abroad"
+    },
+    "correct": "C",
+    "explanation": "Public goods are non-excludable (accessible to all) and non-rivalrous."
+  },
+  {
+    "question": "Who gave the scarcity definition of economics?",
+    "options": {
+      "A": "Adam Smith",
+      "B": "P.A. Samuelson",
+      "C": "Alfred Marshall",
+      "D": "Lionel Robbins"
+    },
+    "correct": "D",
+    "explanation": "Lionel Robbins defined economics in terms of scarcity."
+  },
+  {
+    "question": "What are the four main 'factors of production' in economics?",
+    "options": {
+      "A": "Land, Labor, Capital, and Entrepreneurship",
+      "B": "Money, Machines, Land, and People",
+      "C": "Taxes, Loans, Goods, and Services",
+      "D": "Primary, Secondary, Tertiary, and Quaternary"
+    },
+    "correct": "A",
+    "explanation": "The primary factors of production are land, labor, capital, and entrepreneurship."
+  },
+  {
+    "question": "What does a firm earn under monopolistic competition in the long run?",
+    "options": {
+      "A": "Produces at minimum average cost",
+      "B": "Experiences constant returns to scale",
+      "C": "Earns zero economic profit",
+      "D": "Earns positive economic profit"
+    },
+    "correct": "C",
+    "explanation": "In the long run, firms in monopolistic competition earn zero economic profit (normal profit) due to free entry and exit."
+  },
+  {
+    "question": "Which of the following correctly describes a heavy industry?",
+    "options": {
+      "A": "It uses light raw materials like cotton.",
+      "B": "It produces light consumer goods.",
+      "C": "Uses bulky inputs to produce heavy goods.",
+      "D": "It manufactures cosmetics and toiletries."
+    },
+    "correct": "C",
+    "explanation": "Heavy industries use bulky inputs and produce heavy, large-scale products."
+  },
+  {
+    "question": "What is the elasticity of supply called when a proportionate change in supply is more than a proportionate change in price?",
+    "options": {
+      "A": "Relatively inelastic supply",
+      "B": "Relatively elastic supply",
+      "C": "Perfectly elastic supply",
+      "D": "Perfectly inelastic supply"
+    },
+    "correct": "B",
+    "explanation": "When the percentage change in quantity supplied exceeds the percentage change in price, supply is relatively elastic."
+  },
+  {
+    "question": "Which economic concept is known as the 'invisible hand'?",
+    "options": {
+      "A": "Government regulation",
+      "B": "Market forces",
+      "C": "Central banking",
+      "D": "Tax collection"
+    },
+    "correct": "B",
+    "explanation": "The 'invisible hand' refers to the self-regulating nature of the marketplace driven by market forces."
+  },
+  {
+    "question": "Which of the following is NOT an exception to the 'Law of Demand'?",
+    "options": {
+      "A": "Giffen goods",
+      "B": "Conspicuous goods",
+      "C": "Speculative goods",
+      "D": "Substitute goods"
+    },
+    "correct": "D",
+    "explanation": "Substitute goods are not an exception; they are a standard determinant of demand."
+  },
+  {
+    "question": "Which of the following attributes is generally present in a perfectly competitive market?",
+    "options": {
+      "A": "Companies can enter or exit the market freely",
+      "B": "Each company determines its own price based on the cost of production",
+      "C": "A few companies monopolize the supply of products",
+      "D": "Sellers provide slightly varying forms of the same thing"
+    },
+    "correct": "A",
+    "explanation": "Perfect competition features free entry and exit of firms."
+  },
+  {
+    "question": "In the context of public goods, what does 'Non-rivalrous' stands for?",
+    "options": {
+      "A": "One person's use reduces another's use",
+      "B": "One person's use doesn't reduce another's use",
+      "C": "The good is a Giffen good",
+      "D": "The good is only available for bureaucrat"
+    },
+    "correct": "B",
+    "explanation": "Non-rivalrous means one individual's consumption does not diminish the amount available for others."
+  },
+  {
+    "question": "What happens to firms under monopolistic competition in the short run?",
+    "options": {
+      "A": "Always incur losses",
+      "B": "Must produce at minimum average cost",
+      "C": "Can earn profits or losses depending on demand and cost conditions",
+      "D": "Always earn abnormal profits"
+    },
+    "correct": "C",
+    "explanation": "In the short run, monopolistically competitive firms can earn profits, break even, or incur losses."
+  },
+  {
+    "question": "Which of the following best describes the key requirement for ensuring balanced regional development (BRD) across India?",
+    "options": {
+      "A": "Dependence on financial resources without other factors.",
+      "B": "Focusing solely on technology and infrastructure.",
+      "C": "A mix of financial, natural, human, and technological resources.",
+      "D": "Relying on centralized planning and governance."
+    },
+    "correct": "C",
+    "explanation": "Balanced regional development requires a mix of financial, natural, human, and technological resources."
+  },
+  {
+    "question": "In economics, what does 'opportunity cost' refer to?",
+    "options": {
+      "A": "The next best alternative forgone",
+      "B": "The total money spent",
+      "C": "A discount offered",
+      "D": "A tax collected"
+    },
+    "correct": "A",
+    "explanation": "Opportunity cost is the value of the next best alternative given up when a choice is made."
+  },
+  {
+    "question": "GDP at current prices is calculated using:",
+    "options": {
+      "A": "Constant base-year prices",
+      "B": "Prices of the current year",
+      "C": "International market rates",
+      "D": "Wholesale price index"
+    },
+    "correct": "B",
+    "explanation": "Nominal GDP (at current prices) is calculated using the prices of the current year."
+  },
+  {
+    "question": "Which of the following is an example of a 'public good'?",
+    "options": {
+      "A": "Public transport",
+      "B": "Private parks",
+      "C": "Police services",
+      "D": "Electricity"
+    },
+    "correct": "C",
+    "explanation": "Police services are non-excludable and non-rivalrous, making them a public good."
+  },
+  {
+    "question": "Which of the following is not a characteristic of oligopoly?",
+    "options": {
+      "A": "Infinite sellers",
+      "B": "Mutual interdependence",
+      "C": "Homogeneous or differentiated products",
+      "D": "Few large firms"
+    },
+    "correct": "A",
+    "explanation": "An oligopoly consists of a few large sellers, not infinite sellers."
+  },
+  {
+    "question": "Governments are trying to make rules for businesses simpler and easier to understand. This approach is known as:",
+    "options": {
+      "A": "Making rules harder",
+      "B": "Streamlining regulations",
+      "C": "Ignoring rules",
+      "D": "Creating more rules"
+    },
+    "correct": "B",
+    "explanation": "Simplifying rules and regulations is known as streamlining regulations."
+  },
+  {
+    "question": "Which of the following statement is correct regarding Public Goods?",
+    "options": {
+      "A": "Clothes are an example of Public good.",
+      "B": "It can be provided through the market mechanism.",
+      "C": "It can be provided by the transactions between individual consumers and producers.",
+      "D": "Generally, the benefits of public goods are available to all."
+    },
+    "correct": "D",
+    "explanation": "Public goods provide benefits that are generally available to everyone."
+  },
+  {
+    "question": "When is total revenue maximized in relation to elasticity?",
+    "options": {
+      "A": "When elasticity is greater than one",
+      "B": "When elasticity equals one",
+      "C": "When elasticity is less than one",
+      "D": "When marginal cost equals marginal revenue"
+    },
+    "correct": "B",
+    "explanation": "Total revenue is maximized when price elasticity of demand is exactly equal to one (unit elastic)."
+  },
+  {
+    "question": "Which curve is typically U-shaped due to the law of variable proportions?",
+    "options": {
+      "A": "Average Fixed Cost Curve",
+      "B": "Average Variable Cost Curve",
+      "C": "Total Fixed Cost Curve",
+      "D": "Marginal Revenue Curve"
+    },
+    "correct": "B",
+    "explanation": "The Average Variable Cost curve is U-shaped as a result of the law of variable proportions."
+  },
+  {
+    "question": "The 'Law of Demand' states that when the price of a good increases, what happens to the quantity demanded?",
+    "options": {
+      "A": "It increases",
+      "B": "It decreases",
+      "C": "It stays the same",
+      "D": "It becomes zero"
+    },
+    "correct": "B",
+    "explanation": "The Law of Demand indicates an inverse relationship between price and quantity demanded."
+  },
+  {
+    "question": "Iso-utility curve is another name for ________ curve.",
+    "options": {
+      "A": "demand",
+      "B": "supply",
+      "C": "phillips",
+      "D": "indifference"
+    },
+    "correct": "D",
+    "explanation": "An indifference curve represents combinations of goods that yield the same level of utility (iso-utility)."
+  },
+  {
+    "question": "In the context of wear and tear in production process, the replacement investment is same as__________.",
+    "options": {
+      "A": "depreciation of capital",
+      "B": "subsidy given by government",
+      "C": "wage of total staffs",
+      "D": "entrepreneurship cost"
+    },
+    "correct": "A",
+    "explanation": "Replacement investment compensates for the wear and tear of capital, which is termed depreciation."
+  },
+  {
+    "question": "Which of the following refers to the extent to which demand for a particular commodity decreases because others are also consuming the same commodity?",
+    "options": {
+      "A": "Snob effect",
+      "B": "Demonstration effect",
+      "C": "Bandwagon effect",
+      "D": "Veblen effect"
+    },
+    "correct": "A",
+    "explanation": "The snob effect describes a situation where demand for a good decreases because others are consuming it."
+  },
+  {
+    "question": "What does the concept of “elasticity of substitution” measure?",
+    "options": {
+      "A": "How easily consumers substitute one good for another",
+      "B": "The rate of diminishing returns",
+      "C": "How responsive quantity demanded is to price",
+      "D": "How responsive quantity supplied is to price"
+    },
+    "correct": "A",
+    "explanation": "Elasticity of substitution measures how easily one input or good can be substituted for another."
+  },
+  {
+    "question": "Which of these is an example of the 'Primary Sector' of the economy?",
+    "options": {
+      "A": "A car factory",
+      "B": "A bank",
+      "C": "Farming",
+      "D": "A software company"
+    },
+    "correct": "C",
+    "explanation": "Farming involves the extraction of natural resources and forms part of the primary sector."
+  },
+  {
+    "question": "Which of the following is NOT within the scope of macroeconomics?",
+    "options": {
+      "A": "National income",
+      "B": "Total investment",
+      "C": "Wages of an establishment",
+      "D": "Total consumption"
+    },
+    "correct": "C",
+    "explanation": "Wages of a single establishment fall under microeconomics."
+  },
+  {
+    "question": "In the context of Microeconomics, the graphical representation of the demand function is called the _______.",
+    "options": {
+      "A": "demand curve",
+      "B": "goods curve",
+      "C": "supply curve",
+      "D": "seller curve"
+    },
+    "correct": "A",
+    "explanation": "The demand curve graphically represents the relationship between the price of a good and the quantity demanded."
+  },
+  {
+    "question": "Which of the following best distinguishes Gross National Product (GNP) from Gross Domestic Product (GDP)?",
+    "options": {
+      "A": "GNP includes only exports while GDP includes imports",
+      "B": "GNP accounts for net income from abroad, GDP does not",
+      "C": "GNP excludes production by foreign companies in India",
+      "D": "GDP includes depreciation while GNP does not"
+    },
+    "correct": "B",
+    "explanation": "GNP equals GDP plus net factor income from abroad."
+  },
+  {
+    "question": "In the context of economy, which of the following is an example of Intermediate good?",
+    "options": {
+      "A": "Shirt",
+      "B": "Copper used for making utensils",
+      "C": "Television purchase by household",
+      "D": "Refrigerator"
+    },
+    "correct": "B",
+    "explanation": "Copper used in utensils is an intermediate good because it is used as an input to produce another good."
+  },
+  {
+    "question": "Who is regarded as the founding father of modern economics, which was earlier known as political economy?",
+    "options": {
+      "A": "David Ricardo",
+      "B": "John Maynard Keynes",
+      "C": "Adam Smith",
+      "D": "Alfred Marshall"
+    },
+    "correct": "C",
+    "explanation": "Adam Smith is widely considered the father of modern economics."
+  },
+  {
+    "question": "Under the 'Laissez-faire' economic theory, what is the role of the government?",
+    "options": {
+      "A": "Total control of the economy",
+      "B": "Minimum interference in economic affairs",
+      "C": "Setting prices for all goods",
+      "D": "Owning all industries"
+    },
+    "correct": "B",
+    "explanation": "Laissez-faire advocates for minimal government intervention in the economy."
+  },
+  {
+    "question": "The concept of \"marginal utility\" measures:",
+    "options": {
+      "A": "Total benefit from a product",
+      "B": "Satisfaction from one extra unit",
+      "C": "Maximum production possible",
+      "D": "Profit earned"
+    },
+    "correct": "B",
+    "explanation": "Marginal utility is the additional satisfaction gained from consuming one more unit of a good."
+  }
+]

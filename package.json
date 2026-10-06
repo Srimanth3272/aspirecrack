@@ -1,5 +1,5 @@
 {
-  "name": "examedge-ai-automated",
+  "name": "AspireCrack-ai-automated",
   "version": "1.0.0",
   "description": "Automated AI Current Affairs & Exam Preparation System",
   "main": "server.js",
@@ -18,8 +18,11 @@
     "mongoose": "^9.7.3",
     "node-cron": "^3.0.3",
     "nodemailer": "^9.0.3",
-    "pdf-parse": "^2.4.5",
+    "pdf-parse": "^1.1.1",
     "razorpay": "^2.9.6",
     "rss-parser": "^3.13.0"
   }
 }
+
+
+

@@ -1,0 +1,277 @@
+[
+  {
+    "question": "Under the Seventh Schedule of the Indian Constitution, which of the following taxes falls exclusively under the State List?",
+    "options": {
+      "A": "Taxes on agricultural income",
+      "B": "Corporation tax",
+      "C": "Customs duties",
+      "D": "Taxes on income other than agricultural income"
+    },
+    "correct": "A",
+    "explanation": "Taxes on agricultural income fall under the State List (Entry 46 of List II). The others are in the Union List."
+  },
+  {
+    "question": "In tennis, what term is used to describe a legal serve that is untouched by the opponent's racket, thereby winning the point directly for the server?",
+    "options": {
+      "A": "Deuce",
+      "B": "Fault",
+      "C": "Ace",
+      "D": "Let"
+    },
+    "correct": "C",
+    "explanation": "An 'Ace' is a legal serve that is untouched by the receiver, winning the point."
+  },
+  {
+    "question": "Which scientific instrument onboard the Chandrayaan-3 lander (Vikram) was specifically deployed to measure the thermal conductivity and vertical temperature gradient of the lunar surface?",
+    "options": {
+      "A": "Instrument for Lunar Seismic Activity (ILSA)",
+      "B": "Chandra's Surface Thermophysical Experiment (ChaSTE)",
+      "C": "Laser Retroreflector Array (LRA)",
+      "D": "Alpha Particle X-ray Spectrometer (APXS)"
+    },
+    "correct": "B",
+    "explanation": "The ChaSTE payload on Vikram lander measured the thermal conductivity and temperature gradient of the lunar surface."
+  },
+  {
+    "question": "'Cheraw', commonly known as the 'Bamboo Dance', is a traditional folk dance of which of the following Indian states?",
+    "options": {
+      "A": "Meghalaya",
+      "B": "Mizoram",
+      "C": "Nagaland",
+      "D": "Tripura"
+    },
+    "correct": "B",
+    "explanation": "Cheraw is a traditional cultural dance performed in Mizoram, known as the Bamboo Dance."
+  },
+  {
+    "question": "Who among the following economists propounded the 'Welfare Definition' of economics?",
+    "options": {
+      "A": "Adam Smith",
+      "B": "Alfred Marshall",
+      "C": "Lionel Robbins",
+      "D": "John Maynard Keynes"
+    },
+    "correct": "B",
+    "explanation": "Alfred Marshall propounded the 'Welfare Definition' of economics."
+  },
+  {
+    "question": "In traditional Hindu temple architecture, the term 'Garbhagriha' refers to which of the following?",
+    "options": {
+      "A": "The monumental entrance gateway",
+      "B": "The innermost sanctuary housing the main deity",
+      "C": "The circumambulatory pathway around the temple",
+      "D": "The decorative water reservoir for ritual bathing"
+    },
+    "correct": "B",
+    "explanation": "Garbhagriha, meaning 'womb chamber', is the innermost sanctuary of a Hindu temple where the main deity is placed."
+  },
+  {
+    "question": "Which of the following Deccan Sultanates was NOT formed as a result of the disintegration of the Bahmani Kingdom?",
+    "options": {
+      "A": "Bijapur",
+      "B": "Golconda",
+      "C": "Berar",
+      "D": "Khandesh"
+    },
+    "correct": "D",
+    "explanation": "Khandesh was an independent sultanate and not formed from the disintegration of the Bahmani Kingdom."
+  },
+  {
+    "question": "According to the 2011 Census of India, what is the percentage of the population living in urban areas?",
+    "options": {
+      "A": "27.81%",
+      "B": "31.16%",
+      "C": "34.52%",
+      "D": "36.85%"
+    },
+    "correct": "B",
+    "explanation": "According to the 2011 Census, 31.16% of India's population lives in urban areas."
+  },
+  {
+    "question": "Which cell organelle is primarily responsible for modifying, sorting, and packaging proteins and lipids for secretion or delivery to other organelles?",
+    "options": {
+      "A": "Ribosome",
+      "B": "Golgi apparatus",
+      "C": "Lysosome",
+      "D": "Centrosome"
+    },
+    "correct": "B",
+    "explanation": "The Golgi apparatus is responsible for modifying, sorting, and packaging proteins and lipids."
+  },
+  {
+    "question": "What was the primary focus of the Fifth Five-Year Plan (1974\u20131979) of India?",
+    "options": {
+      "A": "Heavy industrialization and capital goods",
+      "B": "Human resource development and education",
+      "C": "Removal of poverty (Garibi Hatao) and self-reliance",
+      "D": "Economic liberalization and export promotion"
+    },
+    "correct": "C",
+    "explanation": "The primary focus of the Fifth Five-Year Plan was poverty alleviation (Garibi Hatao) and achieving self-reliance."
+  },
+  {
+    "question": "Which of the following statements regarding India\u2013Bangladesh water cooperation are correct? 1. The Indo-Bangladesh Joint Rivers Commission (JRC) was established in 1996. 2. The Ganges Water Sharing Treaty was signed in 1996 for a validity period of 30 years. 3. An interim agreement regarding water withdrawal from the trans-boundary Kushiyara River was signed in 2022.",
+    "options": {
+      "A": "1 and 2 only",
+      "B": "2 and 3 only",
+      "C": "1 and 3 only",
+      "D": "1, 2 and 3"
+    },
+    "correct": "B",
+    "explanation": "The Indo-Bangladesh Joint Rivers Commission was established in 1972, not 1996. The Ganges treaty and Kushiyara agreement statements are correct."
+  },
+  {
+    "question": "Which is the largest Buddhist monastery in India, located in Arunachal Pradesh?",
+    "options": {
+      "A": "Hemis Monastery",
+      "B": "Tawang Monastery",
+      "C": "Key Monastery",
+      "D": "Ghum Monastery"
+    },
+    "correct": "B",
+    "explanation": "Tawang Monastery, located in Arunachal Pradesh, is the largest Buddhist monastery in India."
+  },
+  {
+    "question": "During his tenure as Viceroy of India, Lord Curzon initiated several measures to restructure the administration and safeguard British strategic interests. Which of the following administrative territories was created by him in 1901 by carving out districts from the Punjab province?",
+    "options": {
+      "A": "United Provinces of Agra and Oudh",
+      "B": "Central Provinces and Berar",
+      "C": "North-West Frontier Province (NWFP)",
+      "D": "Eastern Bengal and Assam"
+    },
+    "correct": "C",
+    "explanation": "The North-West Frontier Province (NWFP) was created by Lord Curzon in 1901 from districts of Punjab."
+  },
+  {
+    "question": "When a sound wave travels from air into a steel rod, what happens to its frequency and wavelength?",
+    "options": {
+      "A": "Frequency remains unchanged and wavelength increases",
+      "B": "Frequency increases and wavelength remains unchanged",
+      "C": "Both frequency and wavelength decrease",
+      "D": "Frequency remains unchanged and wavelength decreases"
+    },
+    "correct": "A",
+    "explanation": "Frequency depends on the source and remains unchanged when a wave changes medium. Speed of sound is higher in steel than in air, so wavelength increases."
+  },
+  {
+    "question": "In marine ecosystems, the phenomenon of coral bleaching primarily occurs when coral polyps expel which of the following microscopic symbiotic algae from their tissues due to environmental stress?",
+    "options": {
+      "A": "Sargassum",
+      "B": "Zooxanthellae",
+      "C": "Laminaria",
+      "D": "Chlorella"
+    },
+    "correct": "B",
+    "explanation": "Corals have a symbiotic relationship with microscopic algae called zooxanthellae. Environmental stress causes corals to expel these algae, leading to bleaching."
+  },
+  {
+    "question": "Which river originates from Lake Rakshastal near Mount Kailash in Tibet, where it is known as 'Langqen Zangbo', and enters India through the Shipki La pass?",
+    "options": {
+      "A": "Jhelum River",
+      "B": "Chenab River",
+      "C": "Sutlej River",
+      "D": "Ravi River"
+    },
+    "correct": "C",
+    "explanation": "The Sutlej river originates from Lake Rakshastal in Tibet and enters India through the Shipki La pass."
+  },
+  {
+    "question": "Who chaired the Industrial Licensing Policy Inquiry Committee, appointed by the Government of India in 1967 to investigate the functioning of the industrial licensing system?",
+    "options": {
+      "A": "Subimal Dutt",
+      "B": "R. K. Hazari",
+      "C": "P. C. Mahalanobis",
+      "D": "Abid Hussain"
+    },
+    "correct": "A",
+    "explanation": "The Industrial Licensing Policy Inquiry Committee (1967) was chaired by Subimal Dutt."
+  },
+  {
+    "question": "What is the primary objective of India's 'Gaganyaan' mission undertaken by the Indian Space Research Organisation (ISRO)?",
+    "options": {
+      "A": "To soft-land a robotic rover on the surface of Mars",
+      "B": "To demonstrate human spaceflight capability by sending a crew into Low Earth Orbit",
+      "C": "To place a permanent solar observatory at the Sun-Earth L1 point",
+      "D": "To establish an automated mining facility on the Moon"
+    },
+    "correct": "B",
+    "explanation": "The Gaganyaan mission aims to demonstrate human spaceflight capability to Low Earth Orbit (LEO)."
+  },
+  {
+    "question": "U Tirot Sing, a celebrated tribal freedom fighter who led an armed uprising against the British East India Company during 1829\u20131833, belonged to which hills of Northeast India?",
+    "options": {
+      "A": "Lushai Hills",
+      "B": "Khasi Hills",
+      "C": "Naga Hills",
+      "D": "Mikir Hills"
+    },
+    "correct": "B",
+    "explanation": "U Tirot Sing belonged to the Khasi Hills and led the Khasi uprising against the British."
+  },
+  {
+    "question": "Which of the following Mughal emperors built the famous 'Buland Darwaza' at Fatehpur Sikri to commemorate his victory over Gujarat?",
+    "options": {
+      "A": "Babur",
+      "B": "Humayun",
+      "C": "Akbar",
+      "D": "Jahangir"
+    },
+    "correct": "C",
+    "explanation": "Akbar built the Buland Darwaza to commemorate his victory over Gujarat."
+  },
+  {
+    "question": "The Swachh Bharat Mission (Grameen) Phase-II is aimed at achieving 'ODF Plus' status across all villages in India. Which of the following is a primary component of this phase?",
+    "options": {
+      "A": "Installing solar-powered street lighting across all rural roads",
+      "B": "Ensuring effective Solid and Liquid Waste Management (SLWM)",
+      "C": "Providing free health check-ups in rural primary health centres",
+      "D": "Establishing piped natural gas connections in every rural household"
+    },
+    "correct": "B",
+    "explanation": "The primary component of Phase-II for achieving ODF Plus status is Solid and Liquid Waste Management (SLWM)."
+  },
+  {
+    "question": "Which of the following statements is/are INCORRECT regarding the road transport network in India? A. National Highways account for about 2% of the total road length but carry roughly 40% of the road traffic in India. B. Uttar Pradesh has the longest network of National Highways among all Indian states. C. The Border Roads Organisation (BRO) functions under the administrative control of the Ministry of Defence.",
+    "options": {
+      "A": "A only",
+      "B": "B only",
+      "C": "C only",
+      "D": "Both A and B"
+    },
+    "correct": "B",
+    "explanation": "Maharashtra, not Uttar Pradesh, has the longest network of National Highways in India. The other statements are correct."
+  },
+  {
+    "question": "Consider the following statements regarding the 37th National Games of India: 1. It was hosted for the first time by the state of Goa in 2023. 2. 'Moga', representing the Indian bison, was the official mascot of the Games. Which of the statements given above is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct": "C",
+    "explanation": "Both statements are correct. The 37th National Games were hosted by Goa in 2023, and the mascot was 'Moga', an Indian bison."
+  },
+  {
+    "question": "Which scheme was launched by the Government of India to promote entrepreneurship at the grassroots level by facilitating bank loans between \u20b910 lakh and \u20b91 crore to women and SC/ST borrowers?",
+    "options": {
+      "A": "Pradhan Mantri Mudra Yojana",
+      "B": "Stand-Up India Scheme",
+      "C": "Start-Up India Scheme",
+      "D": "PM SVANidhi Scheme"
+    },
+    "correct": "B",
+    "explanation": "Stand-Up India Scheme facilitates bank loans between 10 lakh and 1 crore to at least one SC or ST borrower and at least one woman borrower per bank branch."
+  },
+  {
+    "question": "Under which Article of the Indian Constitution is the Supreme Court empowered to pass any decree or order necessary for doing 'complete justice' in any cause or matter pending before it?",
+    "options": {
+      "A": "Article 136",
+      "B": "Article 142",
+      "C": "Article 141",
+      "D": "Article 137"
+    },
+    "correct": "B",
+    "explanation": "Article 142 of the Constitution of India provides a unique power to the Supreme Court, to do 'complete justice' between the parties."
+  }
+]

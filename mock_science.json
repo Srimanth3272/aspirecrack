@@ -1,0 +1,486 @@
+[
+  {
+    "question": "What is the approximate lift-off mass of the PSLV-C61 launch vehicle?",
+    "options": {
+      "A": "158 tonnes",
+      "B": "321 tonnes",
+      "C": "451 tonnes",
+      "D": "533 tonnes"
+    },
+    "correct": "B",
+    "explanation": "The approximate lift-off mass of the PSLV-C61 launch vehicle is 321 tonnes."
+  },
+  {
+    "question": "Why is generative-design software used in launch vehicle (LV) structural engineering?",
+    "options": {
+      "A": "To increase the mass of structural components",
+      "B": "To reduce structural weight while maintaining performance",
+      "C": "To simplify 2D CAD drafting in mission drawings",
+      "D": "To boost overall mission cost through advanced algorithms"
+    },
+    "correct": "B",
+    "explanation": "Generative design software helps create optimized designs that reduce structural weight while maintaining or improving performance."
+  },
+  {
+    "question": "In the context of launch vehicles of India, which of the following launch vehicle is also known as GSLV MK-III?",
+    "options": {
+      "A": "ASLV",
+      "B": "SLV-3",
+      "C": "LVM3",
+      "D": "PSLV"
+    },
+    "correct": "C",
+    "explanation": "GSLV Mk-III is also officially known as LVM3 (Launch Vehicle Mark-3)."
+  },
+  {
+    "question": "The first successful Indian Polar Satellite Launch Vehicle was _____ .",
+    "options": {
+      "A": "PSLV-D2",
+      "B": "PSLV-C5",
+      "C": "PSLV-C7",
+      "D": "PSLV-C15"
+    },
+    "correct": "A",
+    "explanation": "The PSLV-D2 was the first successful launch of the Indian Polar Satellite Launch Vehicle."
+  },
+  {
+    "question": "The SLV-3 rocket used for India's first satellite launch was a ____ stage rocket.",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct": "C",
+    "explanation": "SLV-3 was a 4-stage rocket."
+  },
+  {
+    "question": "The Chandrayaan-3 lander, Vikram, used which advanced technology for hazard detection and avoidance during landing?",
+    "options": {
+      "A": "Lander Hazard Detection and Avoidance Camera and Processing Algorithm",
+      "B": "Synthetic Aperture Radar (SAR)",
+      "C": "Laser Doppler Imaging and Al-assisted navigation",
+      "D": "Laser Doppler Velocimeter"
+    },
+    "correct": "A",
+    "explanation": "The Lander Hazard Detection and Avoidance Camera (LHDAC) and its associated processing algorithm were crucial for finding a safe landing spot during descent."
+  },
+  {
+    "question": "What is the name of India's first reusable hybrid rocket launched by a Tamil Nadu-based startup?",
+    "options": {
+      "A": "AGNI-V",
+      "B": "RAKSHA-1",
+      "C": "VAYU-1",
+      "D": "RHUMI-1"
+    },
+    "correct": "D",
+    "explanation": "RHUMI-1 is the first reusable hybrid rocket launched by Space Zone India, a Tamil Nadu-based startup."
+  },
+  {
+    "question": "Assertion (A): Liquid Oxygen-Methane (LOX-Meth) has been chosen as the preferred propellant combination for India's Next-Generation Launch Vehicle (NGLV).\nReason (R): LOX-Meth offers advantages such as cleaner combustion for engine reusability, relatively simpler propellant compared to LOX-Hydrogen, and a lower overall operational cost than kerosene due to reduced engine refurbishment tank designs.",
+    "options": {
+      "A": "Both A and R are true, and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "A",
+    "explanation": "Both statements are true and Reason is the correct explanation for Assertion."
+  },
+  {
+    "question": "Assertion (A): Generative Design Software is increasingly used by ISRO for optimizing structure and weight distribution in aerospace components.\nReason (R): Generative design tools are specifically developed for modeling cryogenic fuel tanks used in PSLV variants.",
+    "options": {
+      "A": "Both A and R are true, and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "C",
+    "explanation": "Generative design software is used for optimizing structures, but it is not specifically or exclusively developed for modeling PSLV cryogenic tanks."
+  },
+  {
+    "question": "Which of the following statement is correct regarding Chandrayaan-1 mission?\nI. It was the first lunar mission of India.\nII. It confirmed the presence of water on the Moon.",
+    "options": {
+      "A": "Only I",
+      "B": "Only II",
+      "C": "Both I and II",
+      "D": "Neither I nor II"
+    },
+    "correct": "C",
+    "explanation": "Both statements are correct. It was India's first lunar mission and it played a crucial role in confirming water on the Moon."
+  },
+  {
+    "question": "Examine the following statements about the SSLV-D2 mission and select the correct option:\nStatement 1: SSLV-D2 inserted EOS-07, Janus-1, and AzaadiSAT-2 into a 450 km circular orbit utilizing a three-stage vehicle powered entirely by liquid propulsion.\nStatement 2: The SSLV-D2 mission showcased rapid deployment capability with low turnaround time and limited ground infrastructure needs.",
+    "options": {
+      "A": "Only Statement 1 is correct",
+      "B": "Only Statement 2 is correct",
+      "C": "1 and 2 are correct",
+      "D": "Neither 1 nor 2 are correct"
+    },
+    "correct": "B",
+    "explanation": "SSLV-D2 uses solid propulsion stages, not entirely liquid, making statement 1 incorrect. Statement 2 correctly describes the capabilities showcased by SSLV-D2."
+  },
+  {
+    "question": "The Chandrayaan-2 mission consisted of an orbiter, a lander named __________, and a rover named ___________.",
+    "options": {
+      "A": "Pragyan, Vikram",
+      "B": "Vikram, Pragyan",
+      "C": "Bheem, Shakti",
+      "D": "Aditya, Surya"
+    },
+    "correct": "B",
+    "explanation": "The Chandrayaan-2 mission included the Vikram lander and the Pragyan rover."
+  },
+  {
+    "question": "Which ISRO mission first discovered lunar hydration?",
+    "options": {
+      "A": "Chandrayaan-1",
+      "B": "Chandrayaan-2",
+      "C": "Chandrayaan-3",
+      "D": "Chandrayaan-4"
+    },
+    "correct": "A",
+    "explanation": "Chandrayaan-1 was the first to conclusively discover lunar hydration (water/hydroxyl molecules) on the Moon."
+  },
+  {
+    "question": "What is the gross weight of ISRO's PSLV-XL Configuration?",
+    "options": {
+      "A": "120 tonnes",
+      "B": "1040 tonnes",
+      "C": "320 tonnes",
+      "D": "560 tonnes"
+    },
+    "correct": "C",
+    "explanation": "The gross weight of ISRO's PSLV-XL Configuration is 320 tonnes."
+  },
+  {
+    "question": "Which of the following statements correctly describe the RLV-LEX-02 landing experiment conducted by ISRO?\n1. The Pushpak vehicle was released from 4.5 km altitude at 4 km distance from the runway and performed cross-range corrections before landing.\n2. The winged body and flight from RLV-LEX-01 were the runway and performed RLV-LEX-02 without any structural strengthening.\n3. The mission validated indigenous technologies like navigation, control, and landing gear systems required for autonomous space-return landings.",
+    "options": {
+      "A": "Only Statements 1 and 2 are correct",
+      "B": "Only Statements 2 and 3 are correct",
+      "C": "Only Statements 1 and 3 are correct",
+      "D": "1, 2 and 3 all statements are correct"
+    },
+    "correct": "C",
+    "explanation": "Statements 1 and 3 correctly describe the RLV-LEX-02 landing experiment."
+  },
+  {
+    "question": "Evaluate the following statements related to reusable launch vehicles (RLVs):\nStatement 1: RLVs are being explored primarily to enhance launch efficiency and reduce the recurring cost of satellite deployment.\nStatement 2: The development of RLVs increases operational complexity, making them less viable compared to traditional expendable systems.",
+    "options": {
+      "A": "Only Statement 1 is correct",
+      "B": "Only Statement 2 is correct",
+      "C": "Both 1 and 2 are correct",
+      "D": "Neither 1 nor 2 are correct"
+    },
+    "correct": "A",
+    "explanation": "Statement 1 is correct. Reusable launch vehicles aim to reduce recurring costs. They are not necessarily less viable than expendable systems."
+  },
+  {
+    "question": "What makes the SSLV (Small Satellite Launch Vehicle) distinct from PSLV and GSLV?",
+    "options": {
+      "A": "It uses a hybrid liquid-solid engine",
+      "B": "It is designed for on-demand, low-cost launches",
+      "C": "It operates from a sea-based platform",
+      "D": "It can only launch foreign satellites"
+    },
+    "correct": "B",
+    "explanation": "SSLV is specifically designed to provide on-demand, low-cost launches for small satellites."
+  },
+  {
+    "question": "The indigenous launch vehicle used in 1980's Indian satellite launching was ____.",
+    "options": {
+      "A": "SLV-3",
+      "B": "PSLV",
+      "C": "ASLV",
+      "D": "GSLV"
+    },
+    "correct": "A",
+    "explanation": "SLV-3 was the indigenous launch vehicle used in the 1980s."
+  },
+  {
+    "question": "In the context of Indian satellite launch vehicle, what does \"G\" stands for in GSLV?",
+    "options": {
+      "A": "Geosynchronous",
+      "B": "Gladiator",
+      "C": "Gentle",
+      "D": "Generation"
+    },
+    "correct": "A",
+    "explanation": "GSLV stands for Geosynchronous Satellite Launch Vehicle."
+  },
+  {
+    "question": "What does the \"PSLV\" rocket stand for?",
+    "options": {
+      "A": "Polar Satellite Launch Vehicle",
+      "B": "Public Space Launch Vehicle",
+      "C": "Planetary Satellite Launch Vehicle",
+      "D": "Private Satellite Launch Vehicle"
+    },
+    "correct": "A",
+    "explanation": "PSLV stands for Polar Satellite Launch Vehicle."
+  },
+  {
+    "question": "In the context of Indian satellite launch vehicle, how many stages did GSLV-D1 has?",
+    "options": {
+      "A": "Two",
+      "B": "Three",
+      "C": "Five",
+      "D": "Six"
+    },
+    "correct": "B",
+    "explanation": "The GSLV-D1 was a three-stage launch vehicle."
+  },
+  {
+    "question": "Which of the following space mission of India was credited for reviving interest about presence of water on Moon?",
+    "options": {
+      "A": "Chandrayaan-I",
+      "B": "Chandrayaan-II",
+      "C": "Chandrayaan-III",
+      "D": "Aditya L-1"
+    },
+    "correct": "A",
+    "explanation": "Chandrayaan-1's Moon Mineralogy Mapper instrument provided conclusive evidence of water molecules on the lunar surface."
+  },
+  {
+    "question": "RAMBHA-LP onboard Chandrayaan-3 is designed to probe lunar _____.",
+    "options": {
+      "A": "Plasma",
+      "B": "Gravity",
+      "C": "Photons",
+      "D": "Neutrons"
+    },
+    "correct": "A",
+    "explanation": "RAMBHA-LP (Radio Anatomy of Moon Bound Hypersensitive ionosphere and Atmosphere - Langmuir Probe) is designed to measure the near-surface plasma density."
+  },
+  {
+    "question": "Consider the following statements:\n1. Ramjets operate efficiently at hypersonic speeds.\n2. Dual Mode Ramjets can work in both subsonic and supersonic modes.\nWhich of the statements given above is/are correct?",
+    "options": {
+      "A": "2 only",
+      "B": "Neither 1 nor 2",
+      "C": "Both 1 and 2",
+      "D": "1 only"
+    },
+    "correct": "D",
+    "explanation": "Ramjets operate efficiently at high supersonic and hypersonic speeds. Dual Mode Ramjets operate in supersonic and hypersonic modes, not subsonic."
+  },
+  {
+    "question": "Chandrayaan-1 mission was concluded after the communication with the spacecraft was lost in _____.",
+    "options": {
+      "A": "2009",
+      "B": "2013",
+      "C": "2017",
+      "D": "2014"
+    },
+    "correct": "A",
+    "explanation": "Communication with the Chandrayaan-1 spacecraft was lost in August 2009, concluding the mission."
+  },
+  {
+    "question": "The first successful Indian Polar satellite launch vehicle PSLV-D2 was a ____ stage rocket.",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "6"
+    },
+    "correct": "C",
+    "explanation": "PSLV-D2, the first successful Indian Polar Satellite Launch Vehicle, was a 4-stage rocket."
+  },
+  {
+    "question": "Assertion (A): Spark Torch Igniters are being increasingly incorporated into advanced rocket engine designs for next-generation launch vehicles.\nReason (R): They provide superior multi-restart capability and consistent, reliable ignition in extreme conditions, allowing for more complex mission profiles and enabling engine reusability.",
+    "options": {
+      "A": "Both A and R are true, and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "A",
+    "explanation": "Both the assertion and the reason are true, and the reason correctly explains the assertion."
+  },
+  {
+    "question": "What is the lift off weight of ISRO's Small Satellite Launch Vehicle (SSLV)?",
+    "options": {
+      "A": "420 tonnes",
+      "B": "120 tonnes",
+      "C": "840 tonnes",
+      "D": "1020 tonnes"
+    },
+    "correct": "B",
+    "explanation": "The lift-off weight of ISRO's Small Satellite Launch Vehicle (SSLV) is approximately 120 tonnes."
+  },
+  {
+    "question": "The Laser Retroreflector Array (LRA) onboard Chandrayaan-3 was supplied by which space agency?",
+    "options": {
+      "A": "ESA",
+      "B": "JAXA",
+      "C": "NASA",
+      "D": "ROSCOSMOS"
+    },
+    "correct": "C",
+    "explanation": "The LRA payload on Chandrayaan-3's lander was a passive experiment provided by NASA."
+  },
+  {
+    "question": "Which Indian space mission marked the successful launch of 104 satellites in a single mission?",
+    "options": {
+      "A": "Astrosat",
+      "B": "GSLV Mk III",
+      "C": "Chandrayaan-2",
+      "D": "PSLV-C37"
+    },
+    "correct": "D",
+    "explanation": "ISRO's PSLV-C37 mission successfully launched a record 104 satellites in a single flight in 2017."
+  },
+  {
+    "question": "What advanced technology is being tested in ISRO's new \"Next Generation Launch Vehicle\" (NGLV) project to replace PSLV and GSLV?",
+    "options": {
+      "A": "Reusable booster stage with semi-cryogenic engine",
+      "B": "Quantum entanglement-based control",
+      "C": "Ramjet propulsion",
+      "D": "Multiple orbital drop pods"
+    },
+    "correct": "A",
+    "explanation": "NGLV focuses on a reusable booster stage with a semi-cryogenic engine to reduce costs and increase payload capacity."
+  },
+  {
+    "question": "The depth of the buried crater discovered by Chandrayaan-3 is approximately ______",
+    "options": {
+      "A": "2.2 km",
+      "B": "4.4 km",
+      "C": "6.6 km",
+      "D": "1.1 km"
+    },
+    "correct": "B",
+    "explanation": "The buried crater discovered using data from Chandrayaan-3 is approximately 4.4 km in depth."
+  },
+  {
+    "question": "Why is hydrogen used as fuel in a cryogenic engine?",
+    "options": {
+      "A": "Because it is easy to store at room temperature.",
+      "B": "Because it is non-flammable.",
+      "C": "Because it has the highest energy output per kilogram.",
+      "D": "Because it is very cheap in comparison to other fuels."
+    },
+    "correct": "C",
+    "explanation": "Liquid hydrogen has an extremely high energy output (specific impulse) per kilogram, making it highly efficient for cryogenic rocket engines."
+  },
+  {
+    "question": "What was significant about the Chandrayaan-2 mission despite its lander's failure?",
+    "options": {
+      "A": "It studied Venus",
+      "B": "Its orbiter continues to send data",
+      "C": "It carried astronauts",
+      "D": "It was India's first Mars mission"
+    },
+    "correct": "B",
+    "explanation": "While the Vikram lander failed to soft-land, the Chandrayaan-2 orbiter was successfully deployed and continues to provide valuable scientific data."
+  },
+  {
+    "question": "Which of the following best reflects the fundamental objective of applying generative design in aerospace systems engineering?",
+    "options": {
+      "A": "Facilitating seamless integration of multi-payload platforms in shared bus structures",
+      "B": "Optimizing mechanical configurations for minimum mass and maximum structural resilience",
+      "C": "Enhancing life-support redundancies to meet crew safety protocols in deep-space missions",
+      "D": "Designing adaptive thrust mechanisms to dynamically control orbital corrections"
+    },
+    "correct": "B",
+    "explanation": "The primary goal of generative design in aerospace is to optimize mechanical components to reduce mass while maintaining or improving structural strength."
+  },
+  {
+    "question": "Assertion (A): The Reusable Launch Vehicle - Technology Demonstrator (RLV-TD) program by ISRO is a cornerstone for India's future reusable space access capabilities.\nReason (R): RLV-TD missions are specifically designed to test crucial technologies like hypersonic flight, autonomous landing systems, and the structural resilience of a winged re-entry vehicle.",
+    "options": {
+      "A": "Both A and R are true, and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "A",
+    "explanation": "The RLV-TD program is essential for ISRO's reusable space access goals, and testing these key technologies is precisely why the missions were designed."
+  },
+  {
+    "question": "Assertion (A): The Polar Satellite Launch Vehicle (PSLV) is widely recognized as the workhorse launch vehicle of ISRO.\nReason (R): PSLV is highly versatile, capable of launching a diverse range of payloads into various Earth orbits, and boasts an exceptionally high mission success rate across its different variants.",
+    "options": {
+      "A": "Both A and R are true, and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "A",
+    "explanation": "Both statements are true. PSLV's versatility and high success rate are the exact reasons it is considered ISRO's workhorse."
+  },
+  {
+    "question": "In the context of Indian satellite launch vehicle, how many stages did the ASLV have?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct": "D",
+    "explanation": "The Augmented Satellite Launch Vehicle (ASLV) had 5 stages."
+  },
+  {
+    "question": "Which Indian rocket is called “Fat Boy”?",
+    "options": {
+      "A": "PSLV",
+      "B": "GSLV MK III",
+      "C": "SSLP",
+      "D": "ASLV"
+    },
+    "correct": "B",
+    "explanation": "GSLV Mk III is often referred to as the “Fat Boy” of Indian rockets due to its size and payload capacity."
+  },
+  {
+    "question": "The \"Chandrayaan-2\" mission was launched by, which of the following launching vehicle?",
+    "options": {
+      "A": "SLV-3",
+      "B": "ASLV",
+      "C": "GSLV",
+      "D": "PSLV"
+    },
+    "correct": "C",
+    "explanation": "Chandrayaan-2 was launched by the GSLV Mk III (LVM3) launch vehicle."
+  },
+  {
+    "question": "In the context of launch vehicle of India, the GSLV Mk-III can carry weight up to ____ kg into Geosynchronous Transfer Orbits.",
+    "options": {
+      "A": "4000",
+      "B": "8500",
+      "C": "9000",
+      "D": "10000"
+    },
+    "correct": "A",
+    "explanation": "GSLV Mk-III can carry up to 4000 kg into Geosynchronous Transfer Orbits."
+  },
+  {
+    "question": "In the context of Chandrayaan-III mission, the SHAPE payload was used to ______.",
+    "options": {
+      "A": "detect moonquakes",
+      "B": "study Earth's spectral and polarimetric properties from lunar orbit",
+      "C": "measure thermal conductivity from lunar surface",
+      "D": "study the plasma density on lunar surface"
+    },
+    "correct": "B",
+    "explanation": "The SHAPE (Spectro-polarimetry of Habitable Planet Earth) payload on the propulsion module was designed to study Earth from lunar orbit."
+  },
+  {
+    "question": "The PSLV is mainly used to place the satellites in ______ orbits.",
+    "options": {
+      "A": "Geostationary",
+      "B": "Polar",
+      "C": "Lunar",
+      "D": "Elliptical"
+    },
+    "correct": "B",
+    "explanation": "The Polar Satellite Launch Vehicle (PSLV) is mainly used to place satellites into polar or sun-synchronous orbits."
+  },
+  {
+    "question": "Which nation landed the first rover on the far side of the Moon?",
+    "options": {
+      "A": "USA",
+      "B": "China",
+      "C": "India",
+      "D": "Russia"
+    },
+    "correct": "B",
+    "explanation": "China's Chang'e 4 mission was the first to successfully land a rover (Yutu-2) on the far side of the Moon."
+  }
+]

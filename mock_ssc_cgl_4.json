@@ -1,0 +1,277 @@
+[
+  {
+    "question": "Which of the four Vedas is primarily known as the 'Veda of Melodies and Chants' and is regarded as an important source of Indian classical music?",
+    "options": {
+      "A": "Yajurveda",
+      "B": "Samaveda",
+      "C": "Atharvaveda",
+      "D": "Rigveda"
+    },
+    "correct": "B",
+    "explanation": "Samaveda is known as the Veda of Melodies and Chants."
+  },
+  {
+    "question": "Which regional group adopted the 'Master Plan for Transport Connectivity' during its 5th Summit in March 2022 to boost regional infrastructure and trade integration?",
+    "options": {
+      "A": "SAARC",
+      "B": "ASEAN",
+      "C": "BIMSTEC",
+      "D": "SCO"
+    },
+    "correct": "C",
+    "explanation": "BIMSTEC adopted the Master Plan for Transport Connectivity in March 2022."
+  },
+  {
+    "question": "Under the Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023, the visit of a forensic expert to the crime scene and collection of forensic evidence has been made mandatory for offences punishable with imprisonment of at least how many years?",
+    "options": {
+      "A": "3 years",
+      "B": "5 years",
+      "C": "7 years",
+      "D": "10 years"
+    },
+    "correct": "C",
+    "explanation": "It is mandatory for offences punishable with imprisonment of at least 7 years."
+  },
+  {
+    "question": "Which of the following economic concepts refers to the phenomenon where an individual's demand for a commodity increases primarily because others are also buying or consuming it?",
+    "options": {
+      "A": "Snob effect",
+      "B": "Bandwagon effect",
+      "C": "Veblen effect",
+      "D": "Pigou effect"
+    },
+    "correct": "B",
+    "explanation": "The bandwagon effect occurs when people do something primarily because others are doing it."
+  },
+  {
+    "question": "The Ryotwari System of land revenue, introduced during British rule primarily by Thomas Munro in the Madras Presidency, was characterized by which of the following features?",
+    "options": {
+      "A": "Intermediary zamindars were granted hereditary land ownership rights",
+      "B": "Direct revenue settlement was made between the government and the cultivators (ryots)",
+      "C": "The entire village community was held collectively responsible for tax payments",
+      "D": "Revenue demand was fixed permanently and could never be reassessed"
+    },
+    "correct": "B",
+    "explanation": "In the Ryotwari system, the government directly collected revenue from the cultivators (ryots)."
+  },
+  {
+    "question": "Which of the following statements regarding the rules and court specifications of Kabaddi is/are correct?\n1. The dimensions of the Kabaddi court for senior men are 13 m × 10 m\n2. The distance of the baulk line from the mid-line for senior men is 4.75 metres\n3. The width of the lobby on each side of the court is 1 metre.",
+    "options": {
+      "A": "Only 1 and 2",
+      "B": "Only 1 and 3",
+      "C": "Only 2 and 3",
+      "D": "1, 2 and 3 all are correct"
+    },
+    "correct": "B",
+    "explanation": "The baulk line distance is 3.75m, making statement 2 incorrect. Statements 1 and 3 are correct."
+  },
+  {
+    "question": "Which of the following pairs of rulers of the Delhi Sultanate and their immediate successors is correctly matched?",
+    "options": {
+      "A": "Bahlul Lodi - Sikandar Lodi",
+      "B": "Ghiyas-ud-din Tughlaq - Firuz Shah Tughlaq",
+      "C": "Iltutmish - Ghiyas-ud-din Balban",
+      "D": "Sikandar Lodi - Bahlul Lodi"
+    },
+    "correct": "A",
+    "explanation": "Sikandar Lodi immediately succeeded Bahlul Lodi."
+  },
+  {
+    "question": "A doctor prescribes a corrective lens with a power of +2.0 D for a person. This indicates that the person is suffering from:",
+    "options": {
+      "A": "Myopia and needs a concave lens",
+      "B": "Hypermetropia and needs a convex lens",
+      "C": "Astigmatism and needs a cylindrical lens",
+      "D": "Presbyopia and needs a concave lens"
+    },
+    "correct": "B",
+    "explanation": "Positive power indicates a convex lens, which is used to correct hypermetropia (far-sightedness)."
+  },
+  {
+    "question": "Who among the following authors won the prestigious Man Booker Prize in 2008 for the novel 'The White Tiger'?",
+    "options": {
+      "A": "Aravind Adiga",
+      "B": "Amitav Ghosh",
+      "C": "Vikram Seth",
+      "D": "Upamanyu Chatterjee"
+    },
+    "correct": "A",
+    "explanation": "Aravind Adiga won the Man Booker Prize in 2008 for his debut novel 'The White Tiger'."
+  },
+  {
+    "question": "In the context of disaster management in India, remote sensing satellites are primarily used during flood events to:",
+    "options": {
+      "A": "physically divert the excess river water into dry regions",
+      "B": "identify and map the extent of flood inundation and assess damage",
+      "C": "prevent rainfall by dispersing cloud cover through laser beams",
+      "D": "construct temporary embankments along overflowing rivers"
+    },
+    "correct": "B",
+    "explanation": "Remote sensing is used for mapping and assessment, not physical intervention."
+  },
+  {
+    "question": "Which basic half-sitting posture serves as the primary foundational stance in Bharatanatyam dance?",
+    "options": {
+      "A": "Tribhanga",
+      "B": "Chowk",
+      "C": "Araimandi",
+      "D": "Tandava"
+    },
+    "correct": "C",
+    "explanation": "Araimandi is the basic half-sitting posture in Bharatanatyam."
+  },
+  {
+    "question": "In 1668, the French East India Company established its first factory in India at which of the following places?",
+    "options": {
+      "A": "Masulipatnam",
+      "B": "Surat",
+      "C": "Cochin",
+      "D": "Pondicherry"
+    },
+    "correct": "B",
+    "explanation": "The French East India Company established its first factory in Surat in 1668."
+  },
+  {
+    "question": "A stone is thrown vertically upward with an initial velocity of 14 m/s. Neglecting air resistance, what is the maximum height reached by the stone? (Take g = 9.8 m/s²)",
+    "options": {
+      "A": "19.6 m",
+      "B": "14.0 m",
+      "C": "10.0 m",
+      "D": "7.0 m"
+    },
+    "correct": "C",
+    "explanation": "Using v² = u² - 2gh. At maximum height v=0, so 0 = 14² - 2(9.8)h, which gives h = 10 m."
+  },
+  {
+    "question": "Consider the following statements regarding the 6th Khelo India Youth Games held in 2024:\n1. Maharashtra emerged as the overall champion and topped the medal tally\n2. 'Veera Mangai' was the official mascot of the Games\nWhich of the statements given above is/are correct?",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct": "C",
+    "explanation": "Both statements are correct. Maharashtra topped the tally and Veera Mangai was the mascot."
+  },
+  {
+    "question": "The 'Sekrenyi' festival, widely known as the festival of purification, is celebrated by which of the following tribes of India?",
+    "options": {
+      "A": "Angami tribe of Nagaland",
+      "B": "Bhil tribe of Rajasthan",
+      "C": "Santhal tribe of Jharkhand",
+      "D": "Khasi tribe of Meghalaya"
+    },
+    "correct": "A",
+    "explanation": "Sekrenyi is celebrated by the Angami tribe of Nagaland."
+  },
+  {
+    "question": "The Rampa Rebellion (1922–1924), a prominent tribal uprising against British colonial rule in the Madras Presidency, was led by which of the following leaders?",
+    "options": {
+      "A": "Tirot Sing",
+      "B": "Govind Guru",
+      "C": "Alluri Sitarama Raju",
+      "D": "Kanhu Murmu"
+    },
+    "correct": "C",
+    "explanation": "The Rampa Rebellion was led by Alluri Sitarama Raju."
+  },
+  {
+    "question": "In India's Eighth Five-Year Plan (1992–1997), which of the following areas was accorded the highest priority?",
+    "options": {
+      "A": "Heavy and capital goods industries",
+      "B": "Human resource development",
+      "C": "Defense and space research",
+      "D": "Privatization of railways"
+    },
+    "correct": "B",
+    "explanation": "The 8th Five Year plan accorded highest priority to human resource development."
+  },
+  {
+    "question": "Which Norwegian author and dramatist was awarded the Nobel Prize in Literature in 2023 for his 'innovative plays and prose which give voice to the unsayable'?",
+    "options": {
+      "A": "Karl Ove Knausgård",
+      "B": "Peter Handke",
+      "C": "Jon Fosse",
+      "D": "Dag Solstad"
+    },
+    "correct": "C",
+    "explanation": "Jon Fosse was awarded the Nobel Prize in Literature in 2023."
+  },
+  {
+    "question": "Under the Cabinet Mission Plan of 1946, what was the main point of contention raised by the Indian National Congress regarding the 'Grouping' of provinces?",
+    "options": {
+      "A": "Congress insisted that grouping of provinces should be optional rather than compulsory",
+      "B": "Congress demanded that all princely states must be merged into Group A",
+      "C": "Congress wanted grouping to be based strictly on linguistic lines instead of religious majorities",
+      "D": "Congress demanded the exclusion of Punjab and Bengal from the grouping system altogether"
+    },
+    "correct": "A",
+    "explanation": "The Congress interpreted the grouping as optional, while the Muslim League saw it as compulsory."
+  },
+  {
+    "question": "During the Quit India Movement of 1942, who among the following operated an underground radio station known as the 'Congress Radio'?",
+    "options": {
+      "A": "Aruna Asaf Ali",
+      "B": "Sarojini Naidu",
+      "C": "Usha Mehta",
+      "D": "Sucheta Kripalani"
+    },
+    "correct": "C",
+    "explanation": "Usha Mehta operated the underground Congress Radio during the Quit India Movement."
+  },
+  {
+    "question": "Which government scheme provides an accidental death and disability cover of ₹2 lakh for individuals aged 18 to 70 years at an annual premium of ₹20?",
+    "options": {
+      "A": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+      "B": "Pradhan Mantri Suraksha Bima Yojana",
+      "C": "Pradhan Mantri Fasal Bima Yojana",
+      "D": "Pradhan Mantri Vaya Vandana Yojana"
+    },
+    "correct": "B",
+    "explanation": "PMSBY provides accidental death and disability cover at ₹20 per year."
+  },
+  {
+    "question": "Which of the following is an example of an endothermic process?",
+    "options": {
+      "A": "Thermal decomposition of limestone",
+      "B": "Dilution of concentrated sulfuric acid",
+      "C": "Reaction of quicklime with water",
+      "D": "Neutralization of an acid with a base"
+    },
+    "correct": "A",
+    "explanation": "Thermal decomposition of limestone requires heat (endothermic), while others release heat."
+  },
+  {
+    "question": "In the Corruption Perceptions Index (CPI) published annually by Transparency International, a score of 100 indicates that a country is perceived to be:",
+    "options": {
+      "A": "Highly corrupt",
+      "B": "Very clean",
+      "C": "Fully authoritarian",
+      "D": "Economically unstable"
+    },
+    "correct": "B",
+    "explanation": "A CPI score of 100 represents a very clean (corruption-free) country."
+  },
+  {
+    "question": "The famous rock-cut sculpture of an elephant at Dhauli in Odisha is an outstanding example of the sculptural tradition of which period?",
+    "options": {
+      "A": "Gupta Period",
+      "B": "Kushan Period",
+      "C": "Mauryan Period",
+      "D": "Vakataka Period"
+    },
+    "correct": "C",
+    "explanation": "The Dhauli elephant sculpture belongs to the Mauryan period, associated with Ashoka."
+  },
+  {
+    "question": "In the context of the Maratha military administration under Chhatrapati Shivaji, what did the term 'Bargir' denote?",
+    "options": {
+      "A": "Foot soldiers recruited from the hilly Maval regions",
+      "B": "Cavalrymen who were provided horses and equipment by the state",
+      "C": "Soldiers who brought and maintained their own horses and weapons",
+      "D": "Naval commanders in charge of coastal fortresses"
+    },
+    "correct": "B",
+    "explanation": "Bargirs were cavalrymen equipped by the state, as opposed to shiledars who brought their own horses."
+  }
+]

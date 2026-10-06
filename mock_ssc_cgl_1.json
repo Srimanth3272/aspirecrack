@@ -1,0 +1,288 @@
+[
+  {
+    "question": "On which date did ISRO's first dedicated solar mission, Aditya-L1, successfully enter its halo orbit around the Sun-Earth Lagrange Point 1 (L1)?",
+    "options": {
+      "A": "2 September 2023",
+      "B": "6 January 2024",
+      "C": "23 August 2023",
+      "D": "1 January 2024"
+    },
+    "correct": "B",
+    "explanation": "Aditya-L1 successfully entered the halo orbit around L1 on January 6, 2024."
+  },
+  {
+    "question": "'Thoda', a traditional martial art and dance form that relies on archery skills, belongs to which of the following Indian states?",
+    "options": {
+      "A": "Uttarakhand",
+      "B": "Himachal Pradesh",
+      "C": "Sikkim",
+      "D": "Arunachal Pradesh"
+    },
+    "correct": "B",
+    "explanation": "Thoda is a martial arts form from Himachal Pradesh that relies on one's archery skills."
+  },
+  {
+    "question": "Which of the following statements regarding the 'Hemis Festival' is correct?",
+    "options": {
+      "A": "It is celebrated annually in Assam to commemorate the arrival of the spring season.",
+      "B": "It marks the birth anniversary of Guru Padmasambhava and features the sacred mask dance (Cham).",
+      "C": "It is a harvest festival celebrated mainly by the farming communities of Tamil Nadu.",
+      "D": "It is a week-long martial arts and cattle fair held in Rajasthan."
+    },
+    "correct": "B",
+    "explanation": "The Hemis Festival in Ladakh marks the birth of Guru Padmasambhava and is famous for the Cham mask dance."
+  },
+  {
+    "question": "During the tribal festival of Sarhul in Jharkhand, the village priest (Pahan) traditionally examines the water level in earthen pots kept overnight at the Sarna to forecast which of the following?",
+    "options": {
+      "A": "Success of community hunting expeditions",
+      "B": "Occurrence of forest fires in the region",
+      "C": "Arrival and adequacy of the monsoon rainfall",
+      "D": "Health and fertility of village cattle"
+    },
+    "correct": "C",
+    "explanation": "The Pahan checks the water level to predict the arrival and adequacy of the monsoon rainfall for the upcoming agricultural season."
+  },
+  {
+    "question": "Examine the following statements about ISRO's Polar Satellite Launch Vehicle (PSLV) and select the correct option:\nStatement 1: PSLV is a four-stage launch vehicle that operates with alternating solid and liquid propulsion systems.\nStatement 2: In the PSLV configuration, the first and third stages use liquid rocket engines, while the second and fourth stages use solid rocket motors.",
+    "options": {
+      "A": "Only Statement 1 is correct",
+      "B": "Only Statement 2 is correct",
+      "C": "Both 1 and 2 are correct",
+      "D": "Neither 1 nor 2 is correct"
+    },
+    "correct": "A",
+    "explanation": "PSLV is a 4-stage launch vehicle. The first and third stages are solid, while the second and fourth are liquid. Thus, statement 2 is incorrect."
+  },
+  {
+    "question": "Consider the following statements regarding the Carbon Credit Trading Scheme (CCTS) in India:\n1. The scheme is notified under the provisions of the Energy Conservation Act, 2001.\n2. The Bureau of Energy Efficiency (BEE) acts as the administrator for the Indian carbon market.\n3. One carbon credit certificate is equivalent to a reduction of ten metric tonnes of carbon dioxide equivalent (CO2e).\nWhich of the statements given above are correct?",
+    "options": {
+      "A": "Only 1 and 2",
+      "B": "Only 2 and 3",
+      "C": "Only 1 and 3",
+      "D": "1, 2 and 3"
+    },
+    "correct": "A",
+    "explanation": "One carbon credit is equivalent to a reduction of ONE metric tonne of CO2e, not ten."
+  },
+  {
+    "question": "Under India's G20 Presidency in 2023, which new official engagement group was established for the first time to foster innovation and build a global narrative for startups?",
+    "options": {
+      "A": "Tech20",
+      "B": "Innovate20",
+      "C": "Startup20",
+      "D": "Venture20"
+    },
+    "correct": "C",
+    "explanation": "Startup20 was a new engagement group initiated under India's G20 presidency in 2023."
+  },
+  {
+    "question": "Assertion (A): The Indian Space Research Organisation (ISRO) is establishing a second spaceport at Kulasekarapattinam in Tamil Nadu.\nReason (R): Launches towards polar orbits directly southwards from Kulasekarapattinam eliminate the need for a dogleg maneuver around Sri Lanka, thereby saving fuel and payload capacity.",
+    "options": {
+      "A": "Both A and R are true, and R is the correct explanation of A",
+      "B": "Both A and R are true, and R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "A",
+    "explanation": "Both statements are true, and R explains A perfectly since launching from Kulasekarapattinam saves fuel by avoiding the dogleg maneuver required when launching from Sriharikota."
+  },
+  {
+    "question": "In which type of rock formation are canyons most commonly formed?",
+    "options": {
+      "A": "Foliated metamorphic rocks",
+      "B": "Horizontal bedded sedimentary rocks",
+      "C": "Volcanic igneous rocks",
+      "D": "Glacial deposits"
+    },
+    "correct": "B",
+    "explanation": "Canyons are deep, narrow valleys with steep sides, typically formed by river erosion over millions of years in horizontal bedded sedimentary rocks."
+  },
+  {
+    "question": "In the name of the traditional Himalayan festival 'Losar', which marks the Tibetan New Year, what does the word 'Sar' mean?",
+    "options": {
+      "A": "Year",
+      "B": "New",
+      "C": "Light",
+      "D": "Harvest"
+    },
+    "correct": "B",
+    "explanation": "'Lo' means Year, and 'Sar' means New. Therefore, Losar translates to New Year."
+  },
+  {
+    "question": "Consider the following statements about the novel \"The Namesake\" by Jhumpa Lahiri:\n1. It depicts the cultural assimilation and generational conflict of an Indian immigrant family in the United States.\n2. It is a spy thriller revolving around intelligence operations during the Cold War.\n3. It is a biographical account detailing the life of the Russian author Nikolai Gogol.",
+    "options": {
+      "A": "Only statement 1 is correct",
+      "B": "Only statement 2 is correct",
+      "C": "Statements 1 and 3 both are correct",
+      "D": "1, 2 and 3 all are correct"
+    },
+    "correct": "A",
+    "explanation": "The novel focuses on the Ganguli family's experiences as Indian immigrants in the US."
+  },
+  {
+    "question": "Which of the following colours show Very unhealthy range in AQI?",
+    "options": {
+      "A": "Orange",
+      "B": "Red",
+      "C": "Purple",
+      "D": "Maroon"
+    },
+    "correct": "C",
+    "explanation": "In the standard AQI scale, Purple indicates 'Very Unhealthy' (201-300). Orange is 'Unhealthy for Sensitive Groups', Red is 'Unhealthy', and Maroon is 'Hazardous'."
+  },
+  {
+    "question": "Consider the following statements:\n1. The Finance Commission of India is a constitutional body constituted by the President under Article 280 of the Constitution.\n2. The recommendations made by the Finance Commission of India are legally binding on the Government.\nWhich of the above statements is/are correct?",
+    "options": {
+      "A": "Only statement 1",
+      "B": "Only statement 2",
+      "C": "Both statements 1 and 2",
+      "D": "Neither statement 1 nor 2"
+    },
+    "correct": "A",
+    "explanation": "The recommendations of the Finance Commission are advisory in nature and not legally binding on the Government."
+  },
+  {
+    "question": "In Indian classical music, a raga that consists of five musical notes (swaras) is classified under which of the following jaatis?",
+    "options": {
+      "A": "Sampoorna",
+      "B": "Audav",
+      "C": "Shadav",
+      "D": "Sankirna"
+    },
+    "correct": "B",
+    "explanation": "A raga with 5 notes is called Audav, 6 notes is Shadav, and 7 notes is Sampoorna."
+  },
+  {
+    "question": "At the COP28 climate summit, which of the following global targets was agreed upon by nations to accelerate the clean energy transition by the year 2030?",
+    "options": {
+      "A": "Tripling global renewable energy capacity",
+      "B": "Complete phase-out of all nuclear power generation",
+      "C": "Freezing all investments in energy storage technology",
+      "D": "Doubling fossil fuel subsidies for developing nations"
+    },
+    "correct": "A",
+    "explanation": "Over 110 countries at COP28 agreed to triple the world's installed renewable energy generation capacity by 2030."
+  },
+  {
+    "question": "Barchans are crescent-shaped depositional landforms most commonly associated with which of the following environments?",
+    "options": {
+      "A": "High-altitude glacial valleys",
+      "B": "Arid and desert regions",
+      "C": "Coastal mangrove swamps",
+      "D": "Humid tropical floodplains"
+    },
+    "correct": "B",
+    "explanation": "Barchans are crescent-shaped sand dunes formed by the wind blowing consistently from one direction, commonly found in desert environments."
+  },
+  {
+    "question": "Ramesh is arrested in connection with an offense punishable with imprisonment for seven years. The police produce him before the Judicial Magistrate on Day 1 and obtain an order for 4 days of police custody, after which he is remanded to judicial custody. On Day 10 of his detention, the Investigating Officer files an application seeking another 5 days of police custody, contending that the total limit of 15 days for police custody has not been exhausted. Under Section 187 of the Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023, is the Magistrate legally competent to grant this subsequent police custody in parts or tranches?",
+    "options": {
+      "A": "No, police custody must be granted in a single continuous block on the first production of the accused and cannot be split into separate tranches later.",
+      "B": "Yes, Section 187 of the BNSS, 2023, explicitly permits police custody to be taken in the whole or a part of the initial period (such as the first 15, 40, or 60 days depending on the offense), allowing it in tranches.",
+      "C": "No, police custody cannot exceed a total of 7 days in any circumstance under the BNSS, 2023.",
+      "D": "Yes, but only if the High Court grants special sanction for splitting the custody into tranches after 14 days."
+    },
+    "correct": "B",
+    "explanation": "The BNSS 2023 allows police custody of up to 15 days to be authorized in parts or tranches during the initial 40 or 60 days, depending on the severity of the offense."
+  },
+  {
+    "question": "Arrange the following stages involved in the enactment of the Union Budget in the Indian Parliament in the correct chronological order:\n1. Voting on Demands for Grants\n2. General Discussion\n3. Presentation of the Budget\n4. Passing of the Appropriation Bill",
+    "options": {
+      "A": "3 - 2 - 1 - 4",
+      "B": "3 - 1 - 2 - 4",
+      "C": "2 - 3 - 1 - 4",
+      "D": "1 - 2 - 3 - 4"
+    },
+    "correct": "A",
+    "explanation": "The correct order is Presentation of the Budget (3), followed by General Discussion (2), Voting on Demands for Grants (1), and finally the Passing of the Appropriation Bill (4)."
+  },
+  {
+    "question": "What significant change was introduced to the office of the Governor-General of Bengal by the Charter Act of 1833?",
+    "options": {
+      "A": "He was designated as the Governor-General of India with exclusive legislative powers.",
+      "B": "His office was abolished and replaced by the Viceroy of India.",
+      "C": "He was made subordinate to the Governors of Bombay and Madras.",
+      "D": "A Board of Control was established to oversee his administrative decisions."
+    },
+    "correct": "A",
+    "explanation": "The Charter Act of 1833 made the Governor-General of Bengal the Governor-General of India and vested in him all civil and military powers. Lord William Bentinck became the first Governor-General of India."
+  },
+  {
+    "question": "Which of the following Ashokan rock edict sites is correctly matched with its present-day state?",
+    "options": {
+      "A": "Dhauli - Gujarat",
+      "B": "Kalsi - Uttarakhand",
+      "C": "Sopara - Madhya Pradesh",
+      "D": "Erragudi - Odisha"
+    },
+    "correct": "B",
+    "explanation": "Dhauli is in Odisha, Kalsi is in Uttarakhand, Sopara is in Maharashtra, and Erragudi is in Andhra Pradesh."
+  },
+  {
+    "question": "Consider the following statements regarding the jurisdiction of the Supreme Court of India:\n1. Under Article 131, the Supreme Court has exclusive original jurisdiction in any dispute between the Government of India and one or more States.\n2. The advisory opinion delivered by the Supreme Court under Article 143 is binding on the President of India.",
+    "options": {
+      "A": "Only 1",
+      "B": "Only 2",
+      "C": "Both 1 and 2",
+      "D": "Neither 1 nor 2"
+    },
+    "correct": "A",
+    "explanation": "The advisory opinion given by the Supreme Court under Article 143 is not binding on the President."
+  },
+  {
+    "question": "In national income accounting, which of the following pairs of terms do NOT represent the same economic concept?",
+    "options": {
+      "A": "National Income and Net National Product at factor cost",
+      "B": "Depreciation and Consumption of fixed capital",
+      "C": "Personal Income and Personal Disposable Income",
+      "D": "Domestic Income and Net Domestic Product at factor cost"
+    },
+    "correct": "C",
+    "explanation": "Personal Income and Personal Disposable Income are not the same; Personal Disposable Income is Personal Income minus direct personal taxes."
+  },
+  {
+    "question": "Consider the following statements regarding the Attorney General of India:\n1. The Attorney General for India is appointed by the President under Article 76 of the Constitution of India.\n2. The Attorney General holds office during the pleasure of the President.\n3. The Attorney General has the right to speak and participate in the proceedings of both Houses of Parliament, including the right to vote.",
+    "options": {
+      "A": "1 and 2 only",
+      "B": "2 and 3 only",
+      "C": "1 and 3 only",
+      "D": "1, 2 and 3"
+    },
+    "correct": "A",
+    "explanation": "The Attorney General has the right to speak and take part in the proceedings of both Houses of Parliament, but without a right to vote. Thus, statement 3 is incorrect."
+  },
+  {
+    "question": "Which of the following rules fundamentally differentiates Greco-Roman wrestling from Freestyle wrestling?",
+    "options": {
+      "A": "Attacking the opponent's legs and using one's own legs for offensive moves are strictly prohibited",
+      "B": "Wrestlers are not allowed to score points through takedowns",
+      "C": "Bouts consist of three periods of three minutes each instead of two periods",
+      "D": "Matches can only be won by a fall (pin) and not by technical points"
+    },
+    "correct": "A",
+    "explanation": "In Greco-Roman wrestling, wrestlers may only use their arms and upper bodies to attack, and cannot hold the opponent below the waist."
+  },
+  {
+    "question": "The famous Singareni coalfield in India is located in the valley of which of the following rivers?",
+    "options": {
+      "A": "Damodar Valley",
+      "B": "Godavari Valley",
+      "C": "Mahanadi Valley",
+      "D": "Narmada Valley"
+    },
+    "correct": "B",
+    "explanation": "The Singareni coal reserves stretch across 350 km of the Pranahita-Godavari Valley in Telangana."
+  },
+  {
+    "question": "Case Study: Rohan, a first-time offender, is convicted of stealing an unattended item valued at ₹3,000 from a store. Under the provisions of the Bharatiya Nyaya Sanhita (BNS), 2023, which of the following punishments can the court sentence him to as a distinct non-custodial measure introduced for such petty offences?",
+    "options": {
+      "A": "Community service",
+      "B": "Solitary confinement",
+      "C": "Preventive detention",
+      "D": "Externment"
+    },
+    "correct": "A",
+    "explanation": "The BNSS 2023 introduces community service as a distinct non-custodial punishment for certain petty offences."
+  }
+]
